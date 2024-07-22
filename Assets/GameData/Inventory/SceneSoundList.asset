@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7dd35e6edf4734ba56727dfaa8151d, type: 3}
+  m_Name: SceneSoundList
+  m_EditorClassIdentifier: 
+  sceneSoundList:
+  - sceneName: Home
+    music: 3
+    ambient: 9
+  - sceneName: IntroduceScene
+    music: 9
+    ambient: 9
+  - sceneName: SafetyArea
+    music: 9
+    ambient: 6
+  - sceneName: Map
+    music: 9
+    ambient: 9
+  - sceneName: ResearchBase
+    music: 9
+    ambient: 7
+  - sceneName: StartScene
+    music: 0
+    ambient: 9
+  - sceneName: Church
+    music: 36
+    ambient: 9
+  - sceneName: WarYield
+    music: 9
+    ambient: 38
+  - sceneName: EndScene
+    music: 2
+    ambient: 9

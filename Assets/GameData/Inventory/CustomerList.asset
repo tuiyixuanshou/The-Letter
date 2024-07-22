@@ -1,0 +1,1644 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede111c614c392b46a87e156e35e02a2, type: 3}
+  m_Name: CustomerList
+  m_EditorClassIdentifier: 
+  customerDetailsList:
+  - CustomerID: 1001
+    CustomerName: "\u4F0A\u7490\u739B"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: 04419e6e80884d64fbb641dd2990d3f5, type: 3}
+    CustomerText: "\u707E\u6C11\u4E92\u52A9\u7EC4\u7EC7\u7684\u5934\u76EE\uFF0C\u4E3B\u8981\u6536\u8D2D\u836F\u7269\u548C\u9632\u62A4\u7528\u5177"
+    dialogueElemList:
+    - CustomerID: 1001
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 1
+        PeopleName: "\u6211"
+        DialogueText: "\u4F60\u597D\u5973\u58EB\uFF0C\u8BF7\u95EE\u2026\u2026"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 3778c64f93c668542877bc1d989452a3, type: 3}
+        isLeft: 0
+        PeopleName: "\u8986\u9762\u5973\u4EBA"
+        DialogueText: "\u4F60\u662Fyang\u7684\u670B\u53CB\u5427\uFF1F\u542C\u4ED6\u8BF4\u4F60\u8FD9\u91CC\u8D27\u7269\u5F88\u5168\uFF0C\u98DF\u54C1\u548C\u836F\u7269\u90FD\u6709\u5417\uFF1F"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 1
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u5FC3\u91CC\u6697\u60F3\uFF1A\u8FD9\u4EBA\u6709\u70B9\u773C\u719F\u2026\u5728\u54EA\u91CC\u89C1\u8FC7\u6765\u7740\uFF09\u6709\u7684\u6709\u7684\uFF0C\u60F3\u8981\u70B9\u4EC0\u4E48\uFF1F"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 3778c64f93c668542877bc1d989452a3, type: 3}
+        isLeft: 0
+        PeopleName: "\u8986\u9762\u5973\u4EBA"
+        DialogueText: "\u662F\u8FD9\u6837\uFF0C\u6211\u662F\u707E\u6C11\u4E92\u52A9\u7EC4\u7EC7\u7684\u7269\u8D44\u8D1F\u8D23\u4EBA\uFF0C\u7EC4\u7EC7\u6536\u7559\u7684\u4F24\u5458\u548C\u5F31\u52BF\u7FA4\u4F53\u5F88\u591A\uFF0C\u9700\u8981\u7684\u98DF\u7269\u548C\u836F\u7269\u81EA\u7136\u4E0D\u5C11\uFF0C\u6211\u4F1A\u4E0D\u5B9A\u65F6\u6765\u91C7\u8D2D\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u539F\u6765\u662F\u4ED6\u4EEC\uFF0C\u8FD9\u5973\u4EBA\u5C31\u662F\u5927\u540D\u9F0E\u9F0E\u7684\u4F0A\u7490\u739B\uFF01\uFF09\u597D\uFF0C\u6211\u770B\u770B\u54EA\u4E9B\u662F\u4F60\u4EEC\u5E94\u8BE5\u4F1A\u9700\u8981\u7684\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 3778c64f93c668542877bc1d989452a3, type: 3}
+        isLeft: 1
+        PeopleName: "\u4F0A\u7490\u739B"
+        DialogueText: "\uFF08\u9762\u9732\u96BE\u8272\uFF09\u4EF7\u683C\u65B9\u9762...E14\u533A\u7684\u6536\u8D2D\u4EF7\u90FD\u662F\u516B\u6298\u3002\u4F46\u6211\u4EEC\u6CA1\u6709\u56FA\u5B9A\u6536\u5165\u6765\u6E90\uFF0C\u5E0C\u671B\u53EF\u4EE5\u4FBF\u5B9C\u4E00\u4E9B...\u516C\u76CA\u7EC4\u7EC7\u4E5F\u4E0D\u5BB9\u6613\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u8FD9\u2026\u2026\uFF08\u82E5\u6709\u6240\u601D\uFF09"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShowSelectPanel
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: InstantiateSelectButton
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    - CustomerID: 1001
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u55EF\uFF0C\u4F60\u4EEC\u4E0D\u5BB9\u6613\uFF0C\u5E2E\u4E86\u8FD9\u4E48\u591A\u4EBA\uFF0C\u516D\u6298\u4F18\u60E0\u5427!"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 3778c64f93c668542877bc1d989452a3, type: 3}
+        isLeft: 1
+        PeopleName: "\u4F0A\u7490\u739B"
+        DialogueText: "\u5584\u826F\u7684\u4EBA\uFF0C\u4E0A\u5E1D\u4F1A\u4FDD\u4F51\u4F60\u7684\u3002\u4E0D\u8FC7\u4F60\u4E5F\u4E0D\u5BB9\u6613\uFF0C\u8FD8\u662F8\u6298\u597D\u4E86\u3002"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08???\uFF09\u54C8\u54C8\u2026\u2026\u597D\u7684\uFF0C\u90A3\u8FD8\u662F\u6B63\u5E38\u4EF7\u683C\u3002\uFF08\u7CBE\u795E\uFF0B5\uFF09"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 5436087637479831148, guid: 2d0ee4955878c974495598486f62acc2, type: 3}
+              m_TargetAssemblyTypeName: DialPlayerPChange, Assembly-CSharp
+              m_MethodName: PlayerCutSan
+              m_Mode: 3
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 5
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 3778c64f93c668542877bc1d989452a3, type: 3}
+        isLeft: 0
+        PeopleName: "\u4F0A\u7490\u739B"
+        DialogueText: "\u6211\u8FD8\u9700\u8981\u66F4\u591A\u7684\u5417\u5561\u548C\u5E03\u6D1B\u82AC\uFF0C\u4F60\u518D\u53BB\u627E\u627E\u3002\u8FC7\u51E0\u5929\u6211\u6765\u53D6\u3002"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: 
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    - CustomerID: 1001
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u5509\u4E0D\u884C\uFF0C\u73B0\u5728\u627E\u8FD9\u4E9B\u4E1C\u897F\u8D8A\u6765\u8D8A\u96BE\u4E86\uFF0C\u6211\u4E5F\u4E0D\u5BB9\u6613\u3002"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 3778c64f93c668542877bc1d989452a3, type: 3}
+        isLeft: 1
+        PeopleName: "\u4F0A\u7490\u739B"
+        DialogueText: "\u597D\uFF0C\u7406\u89E3\u7684\u3002\u5C31\u6309\u7167\u7EDF\u4E00\u6536\u8D2D\u4EF7\u516B\u6298\u5427\u3002"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 3778c64f93c668542877bc1d989452a3, type: 3}
+        isLeft: 0
+        PeopleName: "\u4F0A\u7490\u739B"
+        DialogueText: "\u6211\u8FD8\u9700\u8981\u66F4\u591A\u7684\u5417\u5561\u548C\u5E03\u6D1B\u82AC\uFF0C\u4F60\u518D\u53BB\u627E\u627E\u3002\u8FC7\u51E0\u5929\u6211\u6765\u53D6\u3002"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: 
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
+  - CustomerID: 1002
+    CustomerName: "\u7ECF\u5E38\u5149\u987E\u7684\u8001\u5934"
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: acd5f36336707c442b401ab079b08406, type: 3}
+    CustomerText: "\u5E74\u8F7B\u4EBA\uFF0C\u53C8\u89C1\u9762\u4E86\uFF01\u542C\u8BF4\u8FD9\u91CC\u80FD\u4E70\u5230\u5403\u7684\u3002"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1003
+    CustomerName: "\u5C0F\u5973\u5B69"
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: 90685725961b6974fb63cce861b8bbfc, type: 3}
+    CustomerText: "\u53D4\u53D4\u597D\uFF01\u7238\u7238\u8BF4\u8FD9\u91CC\u53EF\u4EE5\u4E70\u5230\u7EF7\u5E26\uFF0C\u62DC\u6258\u5E2E\u6211\u62FF\u4E00\u5377\uFF5E"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1004
+    CustomerName: "\u5F6A\u54E5"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: 1acad69e280fcd040a464b37fb84de84, type: 3}
+    CustomerText: "\u5546\u8D85\u8001\u677F\uFF0C\u6536\u8D2D\u7269\u8D44\u4E3A\u98DF\u54C1\u7C7B"
+    dialogueElemList:
+    - CustomerID: 1004
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 21300000, guid: 5b2039415a0f9b042ae18b3a95197708, type: 3}
+        isLeft: 0
+        PeopleName: ???
+        DialogueText: "\uFF08\u4E0A\u4E0B\u5927\u91CF\u4E86\u4E00\u756A\uFF09\u4F60\u8FD9\u513F\u5356\u8D27\uFF1F\u6700\u8FD1\u884C\u60C5\u4E0D\u7B97\u597D\u5427\u3002"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u662F\u554A\uFF0C\u8D27\u4E0D\u597D\u5356\u554A\u3002\uFF08\u8FD9\u4EBA\u633A\u602A.....\u8981\u5E72\u4EC0\u4E48\u554A\uFF09"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 5b2039415a0f9b042ae18b3a95197708, type: 3}
+        isLeft: 0
+        PeopleName: ???
+        DialogueText: "\u4F46\u4F60\u8FD9\u8D27\u8FD8\u4E0D\u5C11\u3002\u5BF9\u4E86\uFF0C\u6211\u662F\u5F00\u8D85\u5E02\u7684\uFF0C\u558A\u6211\u5F6A\u54E5\u5C31\u884C\u3002\u6211\u624B\u5934\u5BA2\u6E90\u4E0D\u5C11\uFF0C\u8981\u7684\u8D27\u4E5F\u5F88\u591A\u3002"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 5b2039415a0f9b042ae18b3a95197708, type: 3}
+        isLeft: 0
+        PeopleName: "\u5F6A\u54E5"
+        DialogueText: "\u54B1\u4FE9\u4E0D\u5982\u5408\u4F5C\u4E00\u4E0B\u597D\u4E86\uFF0C\u4F60\u628A\u8D27\u5356\u7ED9\u6211\uFF0C\u6211\u7ED9\u4F60\u5356\u51FA\u53BB\u3002"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u54EA\u6765\u7684\u5929\u4E0A\u6389\u9985\u997C\uFF1F\u5F00\u4E2A\u4EF7\u95EE\u95EE\uFF09\u4F60\u548B\u6536\u5462\uFF1F\u4FBF\u5B9C\u7684\u8BDD\u6211\u53EF\u4E0D\u5356\u3002"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 5b2039415a0f9b042ae18b3a95197708, type: 3}
+        isLeft: 0
+        PeopleName: "\u5F6A\u54E5"
+        DialogueText: "\u516B\u6298\u516B\u6298\uFF01\u8FD9\u4EF7\u683C\u53EF\u4EE5\u5427\uFF1F\u90FD\u662F\u7EDF\u4E00\u4EF7\u3002"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u8BD5\u63A2\uFF09\u516B\u4E94\u6298\u5462\uFF1F"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 5b2039415a0f9b042ae18b3a95197708, type: 3}
+        isLeft: 0
+        PeopleName: "\u5F6A\u54E5"
+        DialogueText: "\uFF08\u77AA\u4E86\u4E00\u773C\uFF09\u4E00\u53E3\u4EF7\uFF0C\u516B\u6298\uFF01"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u59A5\u534F\uFF09\u597D\u597D\u597D\uFF0C\u6211\u7ED9\u4F60\u627E\u8D27\u3002"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: 
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
+  - CustomerID: 1005
+    CustomerName: "\u6B6A\u6BD4\u5DF4\u5E03"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: e95b54ee525c1864691004e961c91093, type: 3}
+    CustomerText: "\u6742\u8D27\u5E97\u8001\u677F\uFF0C\u6536\u8D2D\u7269\u8D44\u591A\u4E3A\u5DE5\u5177"
+    dialogueElemList:
+    - CustomerID: 1005
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 21300000, guid: 0eeab7901a9567f4083a395f48d04313, type: 3}
+        isLeft: 0
+        PeopleName: ???
+        DialogueText: "\u54E5\u4EEC\u513F\uFF0C\u6700\u8FD1\u8D27\u4E0D\u597D\u5356\u5427\uFF01\u4E0D\u5982\u8003\u8651\u8003\u8651\u5356\u7ED9\u6211\uFF0C\u867D\u7136\u4EF7\u683C\u4E0D\u6BD4\u5355\u5356\u9AD8\uFF0C\u4F46\u80DC\u5728\u8D27\u91CF\u5927\u554A\u3002\u8FD9\u4E48\u6765\u770B\u4F60\u4E5F\u4E0D\u5403\u4E8F\uFF0C\u603B\u80FD\u8D5A\u5230\u94B1\uFF01"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u597D\u5BB6\u4F19\uFF01\u4ECA\u665A\u6765\u8FD9\u4E48\u591A\u5927\u6D3B\u513F\uFF01\u8001\u5929\u7737\u987E\u554A\uFF01\uFF09"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u5047\u88C5\u6DE1\u5B9A\uFF09\u55EF\u55EF\uFF0C\u5728\u7406\u3002"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 0eeab7901a9567f4083a395f48d04313, type: 3}
+        isLeft: 0
+        PeopleName: ???
+        DialogueText: "\u6709\u8FD9\u4E48\u591A\u8D27\uFF0C\u5356\u70B9\u7ED9\u6211\u597D\u4E86\uFF01\u6211\u901A\u901A\u90FD\u8981\uFF01\u6211\u6309\u516B\u6298\u7684\u4EF7\u683C\u7ED9\u4F60\uFF0C\u4F60\u770B\u600E\u4E48\u6837\uFF1F"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u54CE\u55E8\uFF0C\u679C\u7136\u6279\u53D1\u4EF7\u5C31\u662F\u516B\u6298\u3002\uFF09"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u5514......\u8FD9\u4E48\u6765\u770B\u5356\u7ED9\u4ED6\u6211\u4E5F\u4E0D\u5403\u4E8F\uFF09\u884C\uFF01\u6211\u6311\u6311\u3002\u4F60\u600E\u4E48\u79F0\u547C\uFF1F"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6B6A\u6BD4\u5DF4\u5E03"
+        DialogueText: "\u6B6A\u6BD4\u5DF4\u5E03\u6B6A\u6BD4\u5DF4\u5E03\u6B6A\u6BD4\u5DF4\u5E03\u2026\u2026"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6B6A\u6BD4\u5DF4\u5E03"
+        DialogueText: 
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1006
+    CustomerName: "\u4E2D\u5E74\u5987\u5973"
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: 4aae5271c9760af4bad5ba6cc625731b, type: 3}
+    CustomerText: "\uFF08\u795E\u8272\u5306\u5306\uFF09\u6709\u4EC0\u4E48\u6B62\u75DB\u7684\u4E1C\u897F\uFF1F\u5B69\u5B50\u75BC\u5F97\u53D7\u4E0D\u4E86\u4E86\uFF01"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1007
+    CustomerName: "\u51EF\u5217\u5B89"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: 636ec642a88a353409af600c64249719, type: 3}
+    CustomerText: "\u836F\u623F\u8001\u677F\uFF0C\u6536\u8D2D\u7269\u8D44\u4E3A\u836F\u7269"
+    dialogueElemList:
+    - CustomerID: 1007
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 21300000, guid: c956632a6b1023c4a95f613fd7237a1c, type: 3}
+        isLeft: 0
+        PeopleName: ???
+        DialogueText: "\u542C\u6211\u5BB6\u90BB\u5C45\u8BF4\uFF0C\u4F60\u8FD9\u91CC\u8D27\u7269\u633A\u591A\uFF1F\u5C31\u662F\u5F00\u6742\u8D27\u5E97\u7684\u6B6A\u6BD4\u5DF4\u5E03\u3002"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u770B\u8FD9\u5F00\u573A\u767D\uFF0C\u53C8\u6709\u94B1\u8D5A\u4E86\uFF01\uFF09\uFF08\u5047\u88C5\u6C89\u7A33\uFF09\u55EF\uFF0C\u4F60\u60F3\u8981\u4EC0\u4E48\u5427"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: c956632a6b1023c4a95f613fd7237a1c, type: 3}
+        isLeft: 0
+        PeopleName: ???
+        DialogueText: "\u6211\u6709\u4E2A\u5C0F\u836F\u623F\uFF0C\u60F3\u4ECE\u4F60\u8FD9\u6536\u836F\u3002\u4F60\u77E5\u9053\u7684\uFF0C\u6700\u8FD1\u836F\u53EF\u4E0D\u597D\u641E\u3002"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u5FC3\u4E2D\u6697\u559C\uFF0C\u633A\u597D\uFF01\u8FD9\u4E9B\u8D27\u90FD\u6709\u4EBA\u6536\u4E86\uFF09\u55EF\u53EF\u4EE5\u53EF\u4EE5\u3002"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: c956632a6b1023c4a95f613fd7237a1c, type: 3}
+        isLeft: 0
+        PeopleName: "\u51EF\u5217\u5B89"
+        DialogueText: "\u90A3\u6309\u89C4\u77E9\uFF0C\u6211\u6309\u516B\u6210\u7ED9\u4F60\u3002\u6211\u53EB\u51EF\u5217\u5B89\u3002"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u597D\uFF0C\u6211\u6311\u8D27\u3002"
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: 
+        isNeedPause: 0
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
+  - CustomerID: 1008
+    CustomerName: "\u6B6A\u6BD4\u5DF4\u5E03"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: e95b54ee525c1864691004e961c91093, type: 3}
+    CustomerText: "\u6709\u4EC0\u4E48\u65B0\u8D27\u6CA1\uFF1F\u518D\u7ED9\u6211\u51FA\u70B9\u513F\u3002"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1009
+    CustomerName: "\u8001\u5927\u7237"
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: 9ed9108cf6bf25749a8870f582f71b3f, type: 3}
+    CustomerText: "\u5C0F\u4F19\u5B50\uFF01\u53C8\u89C1\u9762\u4E86\uFF0C\u7ED9\u6211\u62FF\u70B9\u5403\u7684\uFF0C\u6211\u8001\u4F34\u513F\u8FD8\u5728\u5BB6\u997F\u7740\u5462\uFF01"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1010
+    CustomerName: "\u5F6A\u54E5"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: 1acad69e280fcd040a464b37fb84de84, type: 3}
+    CustomerText: "\u563F\u54E5\u4EEC\u513F\uFF01\u6211\u53C8\u6765\u4E86\uFF01\u4ECA\u5929\u4F60\u8FD9\u513F\u6709\u54EA\u4E9B\u8D27\u554A\uFF0C\u518D\u51FA\u70B9\u513F\u7ED9\u6211\u3002"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1011
+    CustomerName: "\u5E74\u8F7B\u7537\u4EBA"
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: bc2f1deb71e33ce4cb6381b7b7ad490e, type: 3}
+    CustomerText: "\u6709\u571F\u8C46\u5417\uFF1F\u7ED9\u6211\u62FF\u51E0\u4E2A\u3002\u597D\u597D\u6311\u6311\uFF0C\u6211\u53EF\u4E0D\u8981\u53D1\u9752\u7684\u70C2\u8D27\u3002"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1012
+    CustomerName: "\u8001\u4EBA"
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: acd5f36336707c442b401ab079b08406, type: 3}
+    CustomerText: "\u8FD9\u91CC\u6709\u7CAE\u98DF\u5417\uFF1F\u6551\u63F4\u7269\u8D44\u5B9E\u5728\u662F\u62A2\u4E0D\u5230\u554A\uFF0C\u53EA\u80FD\u6765\u4E70\u4E86"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1013
+    CustomerName: "\u51EF\u5217\u5B89"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: 636ec642a88a353409af600c64249719, type: 3}
+    CustomerText: "\u4F60\u597D\u554A\u2014\u2014\u6211\u53C8\u6765\u4E86\u3002"
+    dialogueElemList:
+    - CustomerID: 1013
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 21300000, guid: c956632a6b1023c4a95f613fd7237a1c, type: 3}
+        isLeft: 0
+        PeopleName: "\u51EF\u5217\u5B89"
+        DialogueText: "\u8FD9\u4E24\u5929\u627E\u5230\u4EC0\u4E48\u65B0\u4E1C\u897F\u4E86\u5417\uFF1F"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u597D\uFF0C\u6211\u7ED9\u4F60\u62FF\u3002"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
+  - CustomerID: 1014
+    CustomerName: "\u8001\u5927\u7237"
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: 9ed9108cf6bf25749a8870f582f71b3f, type: 3}
+    CustomerText: "\u5C0F\u4F19\u5B50\uFF01\u4F60\u8FD9\u6709\u94F2\u5B50\u5417\uFF0C\u7ED9\u6211\u6765\u4E00\u628A\uFF08\u8FD8\u5728\u5570\u55E6\uFF0C\u4F60\u8D76\u7D27\u5C94\u5F00\u4E86\u8BDD\u9898\uFF09"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1015
+    CustomerName: "\u5F6A\u54E5"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: 1acad69e280fcd040a464b37fb84de84, type: 3}
+    CustomerText: "\u884C\u60C5\u8D8A\u6765\u8D8A\u4E0D\u597D\u4E86\u2026\u2026"
+    dialogueElemList:
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u53C8\u6765\u4E86\u554A\u5F6A\u54E5\uFF01\u4ECA\u5929\u60F3\u8981\u70B9\u4EC0\u4E48"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 5b2039415a0f9b042ae18b3a95197708, type: 3}
+        isLeft: 0
+        PeopleName: "\u5F6A\u54E5"
+        DialogueText: "\u8001\u6837\u5B50\uFF01\u8FD8\u662F\u90A3\u4E9B\u5457\uFF01\u6709\u591A\u5C11\u62FF\u591A\u5C11\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u90FD\u6CA6\u9677\u4E86\u2026\u2026\u7269\u8D44\u8D8A\u6765\u8D8A\u4E0D\u597D\u627E\u4E86\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 5b2039415a0f9b042ae18b3a95197708, type: 3}
+        isLeft: 0
+        PeopleName: "\u5F6A\u54E5"
+        DialogueText: "\u662F\u554A\uFF08\u53F9\u6C14\uFF09\u6CA1\u529E\u6CD5\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 5b2039415a0f9b042ae18b3a95197708, type: 3}
+        isLeft: 0
+        PeopleName: "\u5F6A\u54E5"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
+  - CustomerID: 1016
+    CustomerName: "\u8001\u4EBA"
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: acd5f36336707c442b401ab079b08406, type: 3}
+    CustomerText: "\u5C0F\u4F19\u5B50\uFF0C\u7ED9\u6211\u62FF\u70B9\u5403\u7684~\u6211\u5BB6\u5B59\u5973\u7231\u5403\u8089\uFF0C\u4F60\u770B\u770B\u6709\u6CA1\u6709\u8FD9\u4E9B\uFF01"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1017
+    CustomerName: "\u5E74\u8F7B\u7537\u4EBA"
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: bc2f1deb71e33ce4cb6381b7b7ad490e, type: 3}
+    CustomerText: "\u6700\u8FD1\u592A\u51B7\u4E86\uFF0C\u5F97\u8D76\u7D27\u628A\u6211\u5BB6\u623F\u5B50\u95E8\u7A97\u597D\u597D\u4FEE\u4FEE\uFF01\u6728\u6750\u3001\u5DE5\u5177\u4F60\u90FD\u62FF\u51FA\u6765\u8BA9\u6211\u6311\u6311\u3002"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1018
+    CustomerName: "\u51EF\u5217\u5B89"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: d8aa8cbe46678e445b3e7e1a3f1f28a0, type: 3}
+    CustomerText: "\u6700\u8FD1\u8FD9\u7269\u8D44\u771F\u662F\u4E0D\u597D\u627E\uFF0C\u6211\u8DD1\u4E86\u597D\u591A\u5730\u65B9\u90FD\u627E\u4E0D\u5168\uFF01\u6765\u4F60\u8FD9\u78B0\u78B0\u8FD0\u6C14\u5427"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1019
+    CustomerName: "\u5E74\u8F7B\u7537\u5B50"
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: bc2f1deb71e33ce4cb6381b7b7ad490e, type: 3}
+    CustomerText: "\u8001\u54E5\uFF01\u6211\u53C8\u6765\u4E86\uFF0C\u4F60\u8FD9\u4E1C\u897F\u8FD8\u633A\u4E0D\u9519\u3002\u6709\u836F\u7269\u5417\uFF0C\u6211\u6BCD\u4EB2\u6700\u8FD1\u8EAB\u4F53\u60C5\u51B5\u4E0D\u662F\u5F88\u597D\uFF0C\u9700\u8981\u4E9B\u6B62\u75DB\u836F\u7247\u3002"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1020
+    CustomerName: "\u5F6A\u54E5"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: 1acad69e280fcd040a464b37fb84de84, type: 3}
+    CustomerText: "\u4ECA\u5929\u5C11\u62FF\u70B9\uFF0C\u6211\u5728\u522B\u7684\u94FA\u5B50\u6536\u5230\u4E86\u5F88\u591A\u3002"
+    dialogueElemList:
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 21300000, guid: 5b2039415a0f9b042ae18b3a95197708, type: 3}
+        isLeft: 0
+        PeopleName: "\u5F6A\u54E5"
+        DialogueText: "\u54B3\u54B3\uFF0C\u5916\u9762\u600E\u4E48\u8FD9\u4E48\u4E71\uFF1F\uFF1F\u600E\u4E48\u56DE\u4E8B\uFF0C\u611F\u89C9\u6700\u8FD1\u4F3C\u4E4E\u4E0D\u6B63\u5E38\u7684\u4EBA\u8D8A\u6765\u8D8A\u591A\u4E86"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u55EF\uFF1F\uFF1F\u8FD8\u597D\u5427\u2026\u2026"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 5b2039415a0f9b042ae18b3a95197708, type: 3}
+        isLeft: 0
+        PeopleName: "\u5F6A\u54E5"
+        DialogueText: "\u611F\u89C9\u54EA\u91CC\u4E0D\u5BF9\uFF0C\u4F46\u662F\u53C8\u8BF4\u4E0D\u4E0A\u6765\u2026\u2026\u5F88\u591A\u4EBA\u2026\u2026\u50CF\u662F\u53D8\u5F02\u4E86\u4E00\u6837\uFF0C\u6709\u70B9\u53EF\u6015\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 5b2039415a0f9b042ae18b3a95197708, type: 3}
+        isLeft: 0
+        PeopleName: "\u5F6A\u54E5"
+        DialogueText: "\u7B97\u4E86\u7B97\u4E86\u8FD9\u4E5F\u4E0D\u662F\u54B1\u80FD\u7BA1\u5F97\u4E86\u7684\u4E8B\u60C5\uFF0C\u4F60\u62FF\u8D27\u5427\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 5b2039415a0f9b042ae18b3a95197708, type: 3}
+        isLeft: 0
+        PeopleName: "\u5F6A\u54E5"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
+  - CustomerID: 1021
+    CustomerName: "\u4F0A\u7490\u739B"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: 04419e6e80884d64fbb641dd2990d3f5, type: 3}
+    CustomerText: "\u53C8\u89C1\u9762\u4E86\u3002\u8FD8\u662F\u8001\u6837\u5B50\u3002\u6700\u8FD1\u6559\u5802\u9700\u8981\u7684\u7269\u8D44\u592A\u591A\uFF0C\u4F60\u5C3D\u7BA1\u62FF\u6765\uFF0C\u6211\u90FD\u8981\u3002"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1022
+    CustomerName: "\u8001\u5927\u7237"
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: 9ed9108cf6bf25749a8870f582f71b3f, type: 3}
+    CustomerText: "\u4E0A\u6B21\u5728\u4F60\u8FD9\u4E70\u7684\u98DF\u7269\uFF0C\u6211\u8001\u4F34\u513F\u8FD8\u633A\u6EE1\u610F\uFF0C\u518D\u7ED9\u6211\u62FF\u70B9\u5403\u7684\u5427\uFF01"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1023
+    CustomerName: "\u4F0A\u7490\u739B"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: 04419e6e80884d64fbb641dd2990d3f5, type: 3}
+    CustomerText: "\u4ECA\u540E\u8D5B\u7433\u5A1C\u4F1A\u4EE3\u66FF\u6211\u8FC7\u6765\u3002"
+    dialogueElemList:
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 21300000, guid: 3778c64f93c668542877bc1d989452a3, type: 3}
+        isLeft: 0
+        PeopleName: "\u4F0A\u7490\u739B"
+        DialogueText: "\u4F60\u4E5F\u770B\u5230\u4E86\u5427\uFF0C\u6700\u8FD1\u60C5\u51B5\u5F88\u4E0D\u597D\u3002\u6559\u5802\u9700\u8981\u7684\u7269\u8D44\u5F88\u591A\uFF0C\u9EBB\u70E6\u4F60\u591A\u7ED9\u6211\u5907\u4E00\u4E9B\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u55EF\u55EF\uFF0C\u4E86\u89E3\u7684\u2026\u2026"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 3778c64f93c668542877bc1d989452a3, type: 3}
+        isLeft: 0
+        PeopleName: "\u4F0A\u7490\u739B"
+        DialogueText: "\u55EF\uFF0C\u597D\u5427\u3002\u6211\u8FD9\u51E0\u5929\u6709\u70B9\u5FD9\uFF0C\u6050\u6015\u4E0D\u80FD\u518D\u6765\u4E86\u3002\u518D\u6709\u4EC0\u4E48\u7F3A\u5C11\u7684\u7269\u8D44\uFF0C\u6211\u4F1A\u8BA9\u8D5B\u7433\u5A1C\u6765\u53D6\u7684\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 3778c64f93c668542877bc1d989452a3, type: 3}
+        isLeft: 0
+        PeopleName: "\u4F0A\u7490\u739B"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
+  - CustomerID: 1024
+    CustomerName: YANG
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: 070c20d2ac6b58d4ca033f9a25fd91da, type: 3}
+    CustomerText: "\u5466\uFF01\u751F\u610F\u7EA2\u7EA2\u706B\u706B\u554A~"
+    dialogueElemList:
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 21300000, guid: 2c013eb0acd77024e848e9382ab755d1, type: 3}
+        isLeft: 0
+        PeopleName: YANG
+        DialogueText: "\u5466\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u5C34\u5C2C\u5F97\u5FEB\u8981\u88C2\u5F00\uFF09\u5927\u5C11\u7237\u2026\u2026\u4F60\u6765\u51D1\u4EC0\u4E48\u70ED\u95F9\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 36a0d241c60144349bebefb030ec5447, type: 3}
+        isLeft: 0
+        PeopleName: YANG
+        DialogueText: "\uFF08\u6311\u7709\uFF09\u6211\u5C31\u4E0D\u80FD\u901B\u5C0F\u5356\u90E8\u4E86\uFF1F\u6211\u6765\u770B\u770B\u4F60\u90FD\u6709\u4E9B\u5565\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: ^_^
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
+  - CustomerID: 1025
+    CustomerName: "\u5F6A\u54E5"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: 1acad69e280fcd040a464b37fb84de84, type: 3}
+    CustomerText: "\u679C\u7136\u540C\u884C\u90FD\u662F\u5927**\uFF01"
+    dialogueElemList:
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 21300000, guid: 3cde31ffabd5e434ba22c08f646831b3, type: 3}
+        isLeft: 0
+        PeopleName: "\u5F6A\u54E5"
+        DialogueText: "\uFF08\u770B\u8D77\u6765\u6012\u6C14\u51B2\u51B2\uFF09\u7ED9\u6211\u62FF\u8D27\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u4E0D\u6562\u591A\u95EE\uFF0C\u5C0F\u5FC3\u7FFC\u7FFC\u7684\uFF09\u597D\u7684\u597D\u7684\u3002\u8D27\u7269\u90FD\u633A\u597D\u7684\u2026\u2026"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 3cde31ffabd5e434ba22c08f646831b3, type: 3}
+        isLeft: 0
+        PeopleName: "\u5F6A\u54E5"
+        DialogueText: "\u55EF\uFF0C\u884C\u3002\u5988\u7684\uFF01\u90A3\u4E2A\u6B6A\u6BD4\u5DF4\u5E03\uFF0C\u771F\u662F\u4E2A\u5927**\uFF01\uFF01\u4E0B\u6B21\u89C1\u4ED6\uFF0C\u6211\u5FC5\u987B\u5F97\u72E0\u72E0\u4FEE\u7406\u4ED6\uFF01\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u55EF\u55EF\u55EF\u55EF\u2026\u2026\uFF08\u80E1\u4E71\u5E94\u4ED8\u7740\uFF0C\u4E0D\u6562\u8FC7\u591A\u8A00\u8BED\uFF0C\u8FD9\u662F\u53D1\u751F\u4E86\u4EC0\u4E48\u554A\u2026\u2026\uFF09"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
+  - CustomerID: 1026
+    CustomerName: "\u6B6A\u6BD4\u5DF4\u5E03"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: e95b54ee525c1864691004e961c91093, type: 3}
+    CustomerText: "\u5F6A\u54E5\u75AF\u4E86\u5427\uFF1F\uFF1F\u6709\u8FD9\u4E48\u4E0D\u8BB2\u7406\u7684\u4EBA\u5417\uFF1F\uFF1F\uFF1F"
+    dialogueElemList:
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 21300000, guid: 0eeab7901a9567f4083a395f48d04313, type: 3}
+        isLeft: 0
+        PeopleName: "\u6B6A\u6BD4\u5DF4\u5E03"
+        DialogueText: "\uFF08\u770B\u8D77\u6765\u5FC3\u60C5\u4E0D\u662F\u5F88\u597D\u7684\u6837\u5B50\uFF09\u55EF\uFF0C\u7ED9\u6211\u62FF\u8D27\uFF0C\u8FD8\u662F\u8001\u6837\u5B50\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u4ED6\u597D\u50CF\u548C\u5F6A\u54E5\u5435\u67B6\u4E86\uFF0C\u62B1\u7740\u5403\u74DC\u7684\u5FC3\u6001\u6253\u63A2\u4E00\u4E0B\uFF09\u4ECA\u5929\u5FC3\u60C5\u4E0D\u597D\uFF1F\uFF1F\uFF1F"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 0eeab7901a9567f4083a395f48d04313, type: 3}
+        isLeft: 0
+        PeopleName: "\u6B6A\u6BD4\u5DF4\u5E03"
+        DialogueText: "\u5988\u7684\uFF01\u522B\u63D0\u4E86\uFF01\u4ECA\u5929\u53EF\u771F\u662F\u6666\u6C14\uFF0C\u78B0\u5230\u4E86\u90A3\u4E2A\u5F6A\u54E5\u3002\u6211\u771F\u7684\uFF0C\u5C31\u6CA1\u89C1\u8FC7\u8FD9\u4E48\u4E0D\u8BB2\u7406\u7684\u4EBA\uFF01\uFF01\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 0eeab7901a9567f4083a395f48d04313, type: 3}
+        isLeft: 0
+        PeopleName: "\u6B6A\u6BD4\u5DF4\u5E03"
+        DialogueText: "\uFF08\u770B\u8D77\u6765\u6C14\u4E0A\u5934\u4E86\uFF0C\u558B\u558B\u4E0D\u4F11\uFF09\u4ED6\uFF0C\u4ED7\u7740\u81EA\u5DF1\u5C81\u6570\u5927\uFF0C\u5C31\u5728\u5404\u79CD\u5730\u65B9\u800D\u813E\u6C14\u3002\u771F\u662F\u4E2A\u8001\u4E0D\u6B7B\u7684\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u6B6A\u6BD4\u5DF4\u5E03\u53E3\u6C34\u5FEB\u55B7\u5230\u4F60\u8138\u4E0A\u4E86\uFF0C\u6253\u65AD\u4ED6\u7684\u8BDD\uFF09\u6211\u8981\u6253\u70CA\u4E86\uFF0C\u5148\u770B\u8D27\u5427\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
+  - CustomerID: 1027
+    CustomerName: "\u51EF\u5217\u5B89"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: d8aa8cbe46678e445b3e7e1a3f1f28a0, type: 3}
+    CustomerText: "\u6700\u8FD1\u6218\u4E71\u8352\u5730\u771F\u4E0D\u5B89\u5168\u2026\u2026"
+    dialogueElemList:
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 21300000, guid: c956632a6b1023c4a95f613fd7237a1c, type: 3}
+        isLeft: 0
+        PeopleName: "\u51EF\u5217\u5B89"
+        DialogueText: "\u6211\u53C8\u6765\u4E86\uFF01\u8FD9\u51E0\u5929\u5FD9\u7740\u5230\u5904\u9003\uFF0C\u751F\u610F\u90FD\u6CA1\u600E\u4E48\u505A\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: c956632a6b1023c4a95f613fd7237a1c, type: 3}
+        isLeft: 0
+        PeopleName: "\u51EF\u5217\u5B89"
+        DialogueText: "\u6700\u8FD1\u6211\u8DD1\u5230\u6218\u4E71\u8352\u5730\u53BB\uFF0C\u90A3\u5730\u65B9\u53EF\u662F\u771F\u5371\u9669\uFF01\uFF01\uFF01\u5413\u6B7B\u4EBA\u4E86\uFF0C\u6211\u73B0\u5728\u8FD8\u5FC3\u6709\u4F59\u60B8"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u5C0F\u5FC3\u4E3A\u5999\uFF0C\u5C0F\u547D\u8981\u7D27\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
+  - CustomerID: 1028
+    CustomerName: "\u8D5B\u7433\u5A1C"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: 44fe3dcb297119f488bbba41d1677a4a, type: 3}
+    CustomerText: "\u6211\u66FF\u4F0A\u7490\u739B\u5927\u4EBA\u8FC7\u6765\uFF0C\u6700\u8FD1\u4F0A\u7490\u739B\u5927\u4EBA\u7279\u522B\u5FD9\u3002"
+    dialogueElemList:
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 21300000, guid: 43992cf1cfd7e4b4cb5545bd4ae33e13, type: 3}
+        isLeft: 0
+        PeopleName: "\u8D5B\u7433\u5A1C"
+        DialogueText: "\u55E8\uFF0C\u7B2C\u4E00\u6B21\u5728\u6559\u5802\u4EE5\u5916\u7684\u5730\u65B9\u770B\u89C1\u4F60\u3002\u4F0A\u7490\u739B\u5927\u4EBA\u5429\u5490\u4E86\uFF0C\u4ECA\u5929\u6211\u6765\u53D6\u8D27\u3002"
+        isNeedPause: 0
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u597D\u3002\u7F07\u7F07\u5A1C\u73B0\u5728\u8FD8\u597D\u5417\uFF1F"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 43992cf1cfd7e4b4cb5545bd4ae33e13, type: 3}
+        isLeft: 0
+        PeopleName: "\u8D5B\u7433\u5A1C"
+        DialogueText: "\uFF08\u8138\u8272\u6697\u4E0B\u6765\uFF09\u4E0D\u597D\u2026\u2026\u4F60\u5FEB\u70B9\u5427\uFF0C\u6211\u60F3\u8D76\u7D27\u56DE\u53BB\u966A\u5979\u4E86\u3002\u4F0A\u7490\u739B\u5927\u4EBA\u8BF4\u8FC7\u662F\u516B\u6298\u5BF9\u5417\uFF1F"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u770B\u7740\u5979\u6194\u60B4\u75B2\u60EB\u7684\u795E\u60C5\uFF09\u662F\u7684\uFF0C\u4F60\u770B\u770B\u8D27\u5427\u3002\u4F60\u81EA\u5DF1\u4E5F\u4FDD\u91CD\u8EAB\u4F53\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
+  - CustomerID: 1029
+    CustomerName: "\u8D5B\u7433\u5A1C"
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: 44fe3dcb297119f488bbba41d1677a4a, type: 3}
+    CustomerText: "\u7F07\u7F07\u5A1C\u2026\u2026\u5979\u60F3\u5403\u9762\u5305\uFF0C\u8FD9\u6050\u6015\u662F\u6211\u552F\u4E00\u80FD\u4E3A\u5979\u505A\u7684\u4E86\u2026\u2026\u6211\u6765\u5F04\u70B9\u9762\u7C89\u3002"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1030
+    CustomerName: "\u6B6A\u6BD4\u5DF4\u5E03"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: e95b54ee525c1864691004e961c91093, type: 3}
+    CustomerText: "\u6025\u6B7B\u6211\u4E86\uFF0C\u6211\u8981\u8D76\u7D27\u56DE\u5BB6\u2026\u2026\u8001\u677F\u4F60\u5FEB\u70B9\u7ED9\u6211\u62FF\uFF01"
+    dialogueElemList:
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 21300000, guid: 0eeab7901a9567f4083a395f48d04313, type: 3}
+        isLeft: 0
+        PeopleName: "\u6B6A\u6BD4\u5DF4\u5E03"
+        DialogueText: "\uFF08\u6025\u5306\u5306\u5730\u8FDB\u6765\uFF09\u5FEB\uFF01\u8001\u6837\u5B50\uFF0C\u7ED9\u6211\u62FF\u8D27\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u600E\u4E48\u4E86\u8FD9\u662F\uFF0C\u614C\u91CC\u614C\u5F20\u7684\uFF1F\uFF1F"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 0eeab7901a9567f4083a395f48d04313, type: 3}
+        isLeft: 0
+        PeopleName: "\u6B6A\u6BD4\u5DF4\u5E03"
+        DialogueText: "\u5988\u7684\uFF0C\u6211\u5F1F\u5F1F\u751F\u75C5\u4E86\u3002\u6211\u8D76\u7D27\u628A\u8D27\u5F04\u5B8C\uFF0C\u56DE\u53BB\u7167\u987E\u4ED6\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u5636\u2026\u2026\u8FD9\u6B6A\u6BD4\u5DF4\u5E03\u5E73\u65F6\u90FD\u95F7\u58F0\u4E0D\u54CD\u7684\u633A\u597D\u6B3A\u8D1F\uFF0C\u770B\u4ED6\u614C\u5F20\u7684\u6837\u5B50\uFF0C\u5E94\u8BE5\u4E5F\u6CA1\u65F6\u95F4\u9A8C\u8D27\uFF0C\u8981\u4E0D\u2026\u2026\uFF09"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: 
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShowSelectPanel
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: InstantiateSelectButton
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    - CustomerID: 1
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: 
+        DialogueText: "\u8FD9\u4E9B\u90FD\u662F\u6700\u597D\u7684\uFF0C\u4F60\u4ED4\u7EC6\u9A8C\u9A8C"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 0eeab7901a9567f4083a395f48d04313, type: 3}
+        isLeft: 0
+        PeopleName: "\u6B6A\u6BD4\u5DF4\u5E03"
+        DialogueText: "\u6211\u4FE1\u5F97\u8FC7\u4F60\uFF0C\u4E0D\u7528\u9A8C\u4E86\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 0eeab7901a9567f4083a395f48d04313, type: 3}
+        isLeft: 0
+        PeopleName: "\u6B6A\u6BD4\u5DF4\u5E03"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u62FF\u51FA\u4E86\u4E00\u4E9B\u6B8B\u6B21\u54C1\uFF09\u6765\u6765\u6765\u90FD\u5728\u8FD9\u91CC\uFF0C\u4F60\u5FEB\u770B\u770B\uFF01"
+        isNeedPause: 0
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 0eeab7901a9567f4083a395f48d04313, type: 3}
+        isLeft: 0
+        PeopleName: "\u6B6A\u6BD4\u5DF4\u5E03"
+        DialogueText: "\uFF08\u4F3C\u4E4E\u53D1\u73B0\u4E86\u4E0D\u5BF9\u52B2\uFF0C\u4ED4\u7EC6\u67E5\u770B\u2014\u2014\uFF09"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u5FC3\u865A\u2026\u2026\uFF09"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 0eeab7901a9567f4083a395f48d04313, type: 3}
+        isLeft: 0
+        PeopleName: "\u6B6A\u6BD4\u5DF4\u5E03"
+        DialogueText: "\uFF08\u53D1\u73B0\u4E00\u4E9B\u5F02\u5E38\uFF0C\u77AA\u7740\u4F60\uFF09\u4F60\u662F\u4E0D\u9A97\u6211\u5462\uFF1F\uFF1F\uFF1F\u55EF\uFF1F\uFF1F\uFF1F"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u554A\u2026\u2026\u989D\u2026\u2026\u6216\u8BB8\u662F\u6211\u5F04\u9519\u4E86\u2026\u2026"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 0eeab7901a9567f4083a395f48d04313, type: 3}
+        isLeft: 0
+        PeopleName: "\u6B6A\u6BD4\u5DF4\u5E03"
+        DialogueText: "\u5988\u7684\uFF01\u6562\u9A97\u8001\u5B50\uFF01\uFF01\u679C\u7136\u4EBA\u7C7B\u6CA1\u6709\u4E00\u4E2A\u662F\u597D\u4E1C\u897F\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u4ED6\u5C31\u8FD9\u6837\u77AA\u7740\u4F60\uFF0C\u4F60\u611F\u5230\u6709\u4E00\u80A1\u65E0\u5F62\u7684\u58F0\u6D6A\u5411\u4F60\u6D8C\u6765\u2014\u2014\uFF09\u554A\uFF01\uFF01\uFF01\uFF01\uFF01\uFF01\uFF01\uFF08\u4F53\u529B-15\uFF09"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 5436087637479831148, guid: 2d0ee4955878c974495598486f62acc2, type: 3}
+              m_TargetAssemblyTypeName: DialPlayerPChange, Assembly-CSharp
+              m_MethodName: PlayerCutHealth
+              m_Mode: 3
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: -15
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: -15
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
+  - CustomerID: 1031
+    CustomerName: "\u5F6A\u54E5"
+    CustomerType: 0
+    CustomerFace: {fileID: 21300000, guid: 1acad69e280fcd040a464b37fb84de84, type: 3}
+    CustomerText: "\u8001\u5F1F\uFF0C\u8001\u6837\u5B50\uFF01"
+    dialogueElemList: []
+    DialogueIndex: -1
+    isSellDone: 0
+  - CustomerID: 1032
+    CustomerName: "\u5927\u7237"
+    CustomerType: 1
+    CustomerFace: {fileID: 21300000, guid: 9ed9108cf6bf25749a8870f582f71b3f, type: 3}
+    CustomerText: "\u597D\u75BC\u554A\u2026\u2026"
+    dialogueElemList:
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 21300000, guid: 80d163f3eefd12e44930783e02b9bc3f, type: 3}
+        isLeft: 0
+        PeopleName: "\u5927\u7237"
+        DialogueText: "\u54CE\u5466\u54CE\u5466\uFF01\uFF01\u771F\u7684\u597D\u75BC\uFF0C\u5168\u8EAB\u90FD\u75BC\u2026\u2026\u90A3\u4E2A\u8BE5\u6B7B\u7684\u5730\u5934\u86C7\uFF0C\u8FD8\u603B\u662F\u62FF\u6211\u51FA\u6C14\uFF01\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 21300000, guid: 80d163f3eefd12e44930783e02b9bc3f, type: 3}
+        isLeft: 0
+        PeopleName: "\u5927\u7237"
+        DialogueText: "\u4E4B\u524D\u6CA1\u6709\u90A3\u4E48\u75BC\u554A\uFF0C\u5C0F\u4F19\u5B50\uFF0C\u4F60\u770B\u6211\u662F\u4E0D\u662F\u4E5F\u88AB\u611F\u67D3\u4E86\u2026\u2026"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\uFF08\u539F\u672C\u4F60\u662F\u5F88\u70E6\u4ED6\u7684\uFF0C\u4F46\u662F\u770B\u4ED6\u4E00\u76F4\u547C\u75BC\uFF0C\u4E5F\u4E0D\u5FCD\u5FC3\u4E86\uFF0C\u8010\u5FC3\u89E3\u91CA\uFF09\u6CA1\u4E8B\uFF0C\u60A8\u8FD8\u6CA1\u6709\u4F24\u53E3\uFF0C\u4E0D\u4F1A\u611F\u67D3\u7684\u3002\u6211\u7ED9\u60A8\u62FF\u70B9\u6B62\u75BC\u836F\u3002"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShopDialogueFinish
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    DialogueIndex: 0
+    isSellDone: 0
