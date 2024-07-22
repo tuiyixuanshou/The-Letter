@@ -1,0 +1,709 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80651ab3ea0897d4195753cfa46983ba, type: 3}
+  m_Name: EventList
+  m_EditorClassIdentifier: 
+  HomeEventList:
+  - EventID: 5001
+    EventName: "yang\u6572\u95E8"
+    EventDiscribe: "\u4E00\u4E2A\u5F00\u95E8\u7684\u52A8\u4F5C"
+    isEventOver: 1
+    UISymbol: {fileID: 21300000, guid: 1cc3b006db9f65c4d9702a92cfd338ba, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u549A\uFF01\u549A\uFF01\u549A\u2014\u2014"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\uFF08\u521A\u8D77\u5E8A\uFF0C\u5934\u8FD8\u5F88\u6655\uFF09\u8FD9\u662F\u2026\u2026\u6709\u4EBA\u5728\u7838\u95E8\uFF1F\uFF1F"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u53EF\u8FD9\u662F\u6211\u7B2C\u4E00\u5929\u6765\u8FD9\u7247\u5B89\u5168\u533A\uFF0C\u8C01\u4F1A\u6765\u7838\u95E8\uFF1F"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u7838\u95E8\u58F0\u8FD8\u5728\u7EE7\u7EED\u2026\u2026\uFF09"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u6765\u4E86\u2014\u2014"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u70B9\u51FB\u68AF\u5B50\u5F00\u95E8\uFF09"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+            m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+            m_MethodName: HomeEventInstantiateOtherEventButton
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      isFight: 0
+    rectPos: {x: -770, y: 20}
+  - EventID: 5101
+    EventName: "yang\u6572\u95E8"
+    EventDiscribe: "yang\u4ECB\u7ECD\u5BA2\u6237"
+    isEventOver: 1
+    UISymbol: {fileID: 21300000, guid: bf1e6542e7381704dbf3cdd927eea765, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\uFF08\u63A8\u5F00\u4E86\u5730\u4E0B\u5BA4\u7684\u95E8\uFF09"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6572\u95E8\u4EBA"
+      DialogueText: "\u54C8\uFF0C\u6CA1\u60F3\u5230\u5927\u8001\u677F\u4E5F\u6709\u6CA6\u843D\u81F3\u6B64\u7684\u4E00\u5929!"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u6211"
+      DialogueText: "\u8FD9\u662F\u2026\u2026"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "YANG??\uFF01\u4F60\u600E\u4E48\u5728\u8FD9\u513F\uFF1F"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c5513f11521be44e8e25349c74cd74f, type: 3}
+      isLeft: 0
+      PeopleName: YANG
+      DialogueText: " \uFF08\u6311\u7709\uFF09A\u533A\u5E7F\u573A\u88AB\u70B8 \uFF0C\u8FD8\u8BB0\u5F97\u5417\uFF1F"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c5513f11521be44e8e25349c74cd74f, type: 3}
+      isLeft: 1
+      PeopleName: YANG
+      DialogueText: "\u4F5C\u4E3AA\u533A\u7684\u4E00\u4EFD\u5B50\uFF0C\u6211\u4E5F\u88AB\u53D1\u914D\u5230\u8FD9\u91CC\u6765\u55BD~"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u6211"
+      DialogueText: "\u5BF9\u2026\u2026"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\uFF08\u5C31\u5728\u6628\u5929\uFF0C\u6211\u82E6\u5FC3\u7ECF\u8425\u591A\u5E74\u7684\u4E00\u5207\u90FD\u88AB\u4E00\u573A\u7A7A\u88AD\u6BC1\u4E86\uFF0C\u4E0D\u5F97\u4E0D\u642C\u8FC1\u5230\u8FD9\u7247\u964C\u751F\u7684\u5B89\u5168\u533A\u6765\u2026\u2026\uFF09"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c5513f11521be44e8e25349c74cd74f, type: 3}
+      isLeft: 0
+      PeopleName: YANG
+      DialogueText: "\uFF08\u63A2\u5934\u671B\u8FDB\u5730\u4E0B\u5BA4\uFF09\u54C7\u585E,\u8FD8\u771F\u662F\u4EC0\u4E48\u90FD\u6CA1\u4E86\u554A"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c5513f11521be44e8e25349c74cd74f, type: 3}
+      isLeft: 1
+      PeopleName: YANG
+      DialogueText: "\u90A3\u524D\u51E0\u5929\u4F60\u7B54\u5E94\u7ED9\u6211\u627E\u7684\u58A8\u955C\u5462\uFF1F\u6211\u771F\u540E\u6094\u6628\u5929\u6CA1\u6709\u65E9\u70B9\u53BB\u62FF\uFF01\u6211\u771F\u540E\u6094\uFF01\uFF01\uFF01\uFF01"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u2026\u2026\u90FD\u8FD9\u6837\u4E86\u4F60\u8FD8\u60E6\u8BB0\u4F60\u7684\u58A8\u955C\u5417\uFF1F"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\uFF08\u4ECE\u68AF\u5B50\u4E0A\u4E0B\u6765\uFF0C\u62FF\u8D77\u552F\u4E00\u4E00\u4E2A\u5E26\u7740\u7684\u80CC\u5305\uFF0C\u7FFB\u4E86\u7FFB\uFF09\u7ED9\u4F60\u5E26\u7740\u4E86\uFF08\u9012\u7ED9\u521A\u521A\u4ECE\u68AF\u5B50\u4E0A\u4E0B\u6765\u7684YANG\uFF09"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c5513f11521be44e8e25349c74cd74f, type: 3}
+      isLeft: 0
+      PeopleName: YANG
+      DialogueText: "\uFF08\u6123\u4F4F\u4E86\uFF09"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c5513f11521be44e8e25349c74cd74f, type: 3}
+      isLeft: 0
+      PeopleName: YANG
+      DialogueText: "\uFF08\u98A4\u6296\u5730\u63A5\u8FC7\uFF09"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c5513f11521be44e8e25349c74cd74f, type: 3}
+      isLeft: 0
+      PeopleName: YANG
+      DialogueText: "\u6211\u2026\u2026\u6211\u7684\u5929\u5450\uFF0C\u8001\u677F\u2014\u2014\u2014\u2014"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u6253\u4F4F\u3002\u4F60\u4EE5\u4E3A\u6211\u60F3\u5E26\u7740\u8FD9\u73A9\u610F\u5417\uFF1F"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u8FD9\u526F\u7834\u58A8\u955C\uFF0C\u81EA\u4ECE\u6211\u653E\u8FDB\u80CC\u5305\u91CC\u5C31\u5FD8\u8BB0\u62FF\u51FA\u6765\u4E86\u3002\u4F60\u8FD8\u662F\u5E86\u5E78\u4F60\u4ECA\u5929\u5C31\u6765\u4E86\uFF0C\u4E0D\u7136\u660E\u5929\u6211\u4E00\u5B9A\u5C31\u628A\u5B83\u7ED9\u6254\u6389\u4E86\u3002"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c013eb0acd77024e848e9382ab755d1, type: 3}
+      isLeft: 0
+      PeopleName: yang
+      DialogueText: "\uFF08\u4EFF\u4F5B\u6CA1\u542C\u89C1\uFF09\u8001\u677F\u554A\uFF0C\u771F\u662F\u60A3\u96BE\u89C1\u771F\u60C5\uFF01"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u2026\u2026"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c013eb0acd77024e848e9382ab755d1, type: 3}
+      isLeft: 0
+      PeopleName: YANG
+      DialogueText: "\uFF08\u6DF1\u60C5\uFF09\u8001\u677F\uFF0C\u4ECA\u5929\u6211\u672C\u6765\u662F\u6765\u5632\u7B11\u4F60\u7684\uFF0C\u4F46\u662F\u6211\u6539\u53D8\u4E3B\u610F\u4E86\uFF01"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c013eb0acd77024e848e9382ab755d1, type: 3}
+      isLeft: 0
+      PeopleName: YANG
+      DialogueText: "\uFF08\u9012\u8FC7\u6765\u4E00\u5F20\u7EB8\u6761\uFF09"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u8FD9\u662F\u2026\u2026\u7269\u8D44\u6E05\u5355\uFF1F"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c013eb0acd77024e848e9382ab755d1, type: 3}
+      isLeft: 0
+      PeopleName: YANG
+      DialogueText: "\u8BA9\u627E\u7684\u4E1C\u897F\uFF0C\u665A\u4E0A\u4F1A\u6709\u4EBA\u6765\u6536\u8D2D\u7684\u3002\u8FD9\u4E0D\u662F\u4F60\u7684\u8001\u672C\u884C\u5417\uFF1F"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c013eb0acd77024e848e9382ab755d1, type: 3}
+      isLeft: 0
+      PeopleName: YANG
+      DialogueText: "\u770B\u5728\u8FD9\u4E2A\u58A8\u955C\u7684\u4EFD\u4E0A\uFF0C\u628A\u8FD9\u4E2A\u4EBA\u4ECB\u7ECD\u7ED9\u4F60\u5427\uFF0C\u53CD\u6B63\u6211\u4E5F\u61D2\u5F97\u7ED9\u4ED6\u627E\u8FD9\u4E9B\u73A9\u610F\u513F\u3002"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c013eb0acd77024e848e9382ab755d1, type: 3}
+      isLeft: 0
+      PeopleName: YANG
+      DialogueText: "\u6211\u4ECA\u65E9\u51FA\u53BB\u8F6C\u8FC7\u4E86\uFF0C\u8FD9\u7247\u5730\u65B9\u7269\u8D44\u8FD8\u633A\u4E30\u5BCC\u7684\u3002"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 21300000, guid: 2c013eb0acd77024e848e9382ab755d1, type: 3}
+      isLeft: 0
+      PeopleName: YANG
+      DialogueText: "\u53EF\u6B7B\u5728\u8FD9\u91CC\u554A\uFF0C\u8001\u677F\uFF01\u6211\u8D70\u4E86\uFF0C\u62DC\u62DC~"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08YANG\u79BB\u5F00\u4E86\uFF09\u83B7\u5F97\u7269\u8D44\u6E05\u5355\uFF0C\u8BF7\u5728\u201C\u4E8B\u9879\u201D\u4E2D\u67E5\u770B"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+            m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+            m_MethodName: callLayOutGroupAddEvent
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: "YANG\u7ED9\u7684\u7269\u8D44\u6E05\u5355\uFF1A\u9762\u7C89*2 
+                \u7EF7\u5E26*4 \u8C46\u5B50*5"
+              m_BoolArgument: 0
+            m_CallState: 2
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u73B0\u5728\u53EF\u4EE5\u51FA\u95E8\u770B\u770B\uFF0C\u6536\u96C6\u6E05\u5355\u4E0A\u7684\u7269\u54C1\uFF0C\u665A\u4E0A\u4F1A\u6709\u4EBA\u524D\u6765\u6536\u8D2D\uFF08\u5982\u679CYANG\u6CA1\u6709\u9A97\u4EBA\u7684\u8BDD\uFF09"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    rectPos: {x: -747.2, y: 82.77}
+  - EventID: 5002
+    EventName: "\u6D41\u6D6A\u6C49\u521D\u767B\u573A"
+    EventDiscribe: "\u6D41\u6D6A\u6C49\u521D\u767B\u573A\u6655\u5012\u73A9\u5BB6\u9009\u62E9\u662F\u5426\u6551\u52A9\u4ED6"
+    isEventOver: 0
+    UISymbol: {fileID: 21300000, guid: e63c8b66aa7557c4ebe46b6ac79d8d0c, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u6211\u5929\uFF01\uFF01\uFF01"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u8FD9\u600E\u4E48\u6709\u4E2A\u4EBA\uFF1F\uFF1F\uFF01\uFF01"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u4E00\u5927\u65E9\uFF0C\u53D1\u73B0\u5BB6\u95E8\u53E3\u762B\u7740\u4E00\u4E2A\u4EBA\u3002\uFF09"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u7A7F\u7740\u8FD8\u7B97\u8003\u7A76\uFF0C\u4F46\u84EC\u5934\u57A2\u9762\uFF0C\u4F3C\u4E4E\u662F\u4E2A\u65E0\u5BB6\u53EF\u5F52\u7684\u6D41\u6D6A\u6C49\u3002\uFF09"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u4F38\u624B\u8BD5\u63A2\u4E86\u4E00\u4E0B\uFF0C\u8FD8\u6709\u6C14\u3002\uFF09"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: 
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+            m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+            m_MethodName: ShowSelectPanel
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+            m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+            m_MethodName: HomeEventInstantiateSelectButton
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u4FDD\u7559\u5185\u5BB9"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    rectPos: {x: -887.6, y: 237}
+  - EventID: 5003
+    EventName: "\u89C1\u4E49\u52C7\u4E3A\u6551\u6D41\u6D6A\u6C49"
+    EventDiscribe: "\u73A9\u5BB6\u9009\u62E9\u6551\u52A9\u6D41\u6D6A\u6C49"
+    isEventOver: 0
+    UISymbol: {fileID: 21300000, guid: e63c8b66aa7557c4ebe46b6ac79d8d0c, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u867D\u7136\u4E16\u4E8B\u9669\u6076\uFF0C\u4F46\u4F60\u7EC8\u7A76\u4E5F\u4E0D\u662F\u89C1\u6B7B\u4E0D\u6551\u7684\u6027\u683C\u3002"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u4E8E\u662F\u628A\u4ED6\u62D6\u8FDB\u4E86\u5BB6\u91CC\uFF0C\u53C8\u5728\u4ED6\u8EAB\u8FB9\u653E\u4E86\u4E00\u4E2A\u53D6\u6696\u7684\u706B\u76C6\u3002"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u521A\u8981\u51FA\u95E8\uFF0C\u4F60\u7A81\u7136\u60F3\u5230\u6700\u8FD1\u5C45\u6C11\u533A\u5E38\u53D1\u751F\u7684\u76D7\u7A83\u62A2\u52AB\u4E8B\u4EF6\uFF0C"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u5FC3\u6709\u4F59\u60B8\uFF0C\u8FD4\u56DE\u4ED3\u5E93\u628A\u7269\u8D44\u85CF\u597D\u3002"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u7ED9\u4ED3\u5E93\u52A0\u4E86\u628A\u9501\uFF0C\u53C8\u627E\u6765\u4E86\u4E00\u4E9B\u6742\u7269\uFF0C\u628A\u5165\u53E3\u63A9\u76D6\u4E86\u8D77\u6765\u3002"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    rectPos: {x: -887.6, y: 237}
+  - EventID: 5004
+    EventName: "\u4E0D\u6551\u6D41\u6D6A\u6C49"
+    EventDiscribe: "\u9009\u62E9\u7F6E\u4E4B\u4E0D\u7406"
+    isEventOver: 0
+    UISymbol: {fileID: 21300000, guid: e63c8b66aa7557c4ebe46b6ac79d8d0c, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u7537\u4EBA\u5F88\u9AD8\u5927\uFF0C\u4F60\u538B\u6839\u6CA1\u6CD5\u632A\u52A8\u4ED6\uFF0C"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u7D22\u6027\u6CA1\u7BA1\uFF0C\u628A\u4ED6\u7559\u5728\u4E86\u539F\u5730\u3002"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    rectPos: {x: -887.6, y: 237}
+  - EventID: 5005
+    EventName: "\u6536\u7559\u6D41\u6D6A\u6C49\u4E4B\u540E\u641C\u8EAB"
+    EventDiscribe: "\u6536\u7559\u6D41\u6D6A\u6C49\u4E4B\u540E\u641C\u8EAB"
+    isEventOver: 0
+    UISymbol: {fileID: 21300000, guid: e63c8b66aa7557c4ebe46b6ac79d8d0c, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u5F53\u4F60\u5916\u51FA\u4E00\u5929\u56DE\u5230\u5BB6\u7684\u65F6\u5019"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u53D1\u73B0\u6D41\u6D6A\u6C49\u6362\u4E86\u4E2A\u4F4D\u7F6E\u53C8\u7761\u8FC7\u53BB\u4E86"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u771F\u662F\u4E2A\u602A\u4EBA....."
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u4F60\u76EF\u7740\u773C\u524D\u7684\u8FD9\u4E2A\u964C\u751F\u7684\u7537\u4EBA"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u60F3\u627E\u5230\u6709\u5173\u4ED6\u8EAB\u4EFD\u7684\u86DB\u4E1D\u9A6C\u8FF9"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: 
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+            m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+            m_MethodName: ShowSelectPanel
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      isFight: 0
+    rectPos: {x: -887.6, y: 237}
+  - EventID: 5006
+    EventName: "\u9009\u62E9\u641C\u8EAB"
+    EventDiscribe: "\u9009\u62E9\u641C\u8EAB"
+    isEventOver: 0
+    UISymbol: {fileID: 21300000, guid: e63c8b66aa7557c4ebe46b6ac79d8d0c, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u8D81\u4ED6\u719F\u7761\uFF0C\u4E0D\u5982\u5077\u5077\u770B\u770B\u4ED6\u8EAB\u4E0A\u90FD\u6709\u4E9B\u4EC0\u4E48\u4E1C\u897F\u3002"
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    rectPos: {x: -887.6, y: 237}
+  - EventID: 5007
+    EventName: "\u4E0D\u9009\u62E9\u641C\u8EAB"
+    EventDiscribe: "\u4E0D\u9009\u62E9\u641C\u8EAB"
+    isEventOver: 0
+    UISymbol: {fileID: 21300000, guid: e63c8b66aa7557c4ebe46b6ac79d8d0c, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u4ED6\u8EAB\u4E0A\u810F\u516E\u516E\u7684...\u6839\u672C\u4E0D\u60F3\u78B0..."
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    rectPos: {x: -887.6, y: 237}
+  - EventID: 5007
+    EventName: "\u4E0D\u9009\u62E9\u641C\u8EAB"
+    EventDiscribe: "\u4E0D\u9009\u62E9\u641C\u8EAB"
+    isEventOver: 0
+    UISymbol: {fileID: 21300000, guid: e63c8b66aa7557c4ebe46b6ac79d8d0c, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u4ED6\u8EAB\u4E0A\u810F\u516E\u516E\u7684...\u6839\u672C\u4E0D\u60F3\u78B0..."
+      isNeedPause: 1
+      isOver: 1
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    rectPos: {x: -887.6, y: 237}

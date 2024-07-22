@@ -1,0 +1,390 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d00e12339d36134cb78b287af74bd4e, type: 3}
+  m_Name: EnemyList
+  m_EditorClassIdentifier: 
+  enemyDetailsList:
+  - EnemyID: 10001
+    EnemyName: "\u5F02\u53D8\u8718\u86DB"
+    EnemyFace: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    EnemyFaceInBattle: {fileID: 21300000, guid: 81f2bca4ccdaa4e46add3bf8bec9bd1f, type: 3}
+    AttackMax: 40
+    AttackMin: 20
+    defenseMax: 85
+    defenseMin: 90
+    MaxHP: 27
+    EnemyChooseType: 1
+    dialogueElemList:
+    - CustomerID: 10001
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u8E29\u5230\u4E86\u4E00\u4E2A\u7C98\u7A20\u7684\u4E1C\u897F\u2026\u2026\u662F\u53D8\u5F02\u8718\u86DB\u7684\u5375\uFF01\u8981\u88AB\u653B\u51FB\u4E86\uFF01"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u662F\u5426\u6218\u6597\uFF1F"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: 
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShowSelectPanel
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: IfBattleInstantiateSelectButton
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    - CustomerID: 10001
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u51C6\u5907\u8FDB\u5165\u6218\u6597\uFF01"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 1
+    - CustomerID: 10001
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u8FD9\u73A9\u610F\u597D\u50CF\u6839\u672C\u65E0\u6CD5\u4EA4\u6D41\u2026\u2026\u8981\u51C6\u5907\u6218\u6597\u4E86\uFF01"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 1
+    - CustomerID: 10001
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u53EF\u6076\u8FD9\u5BB6\u4F19\u7A77\u8FFD\u4E0D\u820D\u7684\uFF0C\u5FC5\u987B\u8981\u6218\u6597\u4E86\uFF01"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 1
+    - CustomerID: 10001
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u6210\u529F\u9003\u8131\u4E86\uFF01\u4F46\u662F\u88AB\u63CD\u4E86\u4E00\u4E0B\u2026\u2026"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: 
+        DialogueText: "\u90E8\u5206\u8840\u91CF\u5DF2\u6263\u9664\uFF08\u8FD9\u91CC\u6216\u8BB8\u53EF\u4EE5\u5C55\u793A\u8840\u91CF\u6263\u9664\u7684\u91CF\uFF09"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+    DialIndex: 0
+    GetBagItems:
+    - BagItemID: 1104
+      BagItemAmount: 1
+    - BagItemID: 1203
+      BagItemAmount: 1
+  - EnemyID: 10002
+    EnemyName: "\u53D1\u75AF\u7684\u9752\u5E74"
+    EnemyFace: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    EnemyFaceInBattle: {fileID: 0}
+    AttackMax: 0
+    AttackMin: 0
+    defenseMax: 0
+    defenseMin: 0
+    MaxHP: 0
+    EnemyChooseType: 0
+    dialogueElemList: []
+    DialIndex: 0
+    GetBagItems: []
+  - EnemyID: 10003
+    EnemyName: "\u53D8\u5F02\u8001\u9F20"
+    EnemyFace: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    EnemyFaceInBattle: {fileID: 21300000, guid: 1a592ba35d44b08429e43eb62cae59f6, type: 3}
+    AttackMax: 20
+    AttackMin: 10
+    defenseMax: 80
+    defenseMin: 90
+    MaxHP: 30
+    EnemyChooseType: 1
+    dialogueElemList:
+    - CustomerID: 10003
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u8857\u4E0A\u600E\u4E48\u51C0\u662F\u4E9B\u6210\u7FA4\u7ED3\u5BF9\u7684\u8001\u9F20\uFF01\u7ADF\u7136\u8FD8\u4F1A\u653B\u51FB\u4EBA"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u662F\u5426\u6218\u6597\uFF1F"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShowSelectPanel
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: IfBattleInstantiateSelectButton
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    - CustomerID: 10003
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u4F60\u6210\u529F\u9003\u8D70\u4E86"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+    - CustomerID: 10003
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u51C6\u5907\u8FDB\u5165\u6218\u6597\uFF01"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 1
+    - CustomerID: 10003
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u8FD9\u4E2A\u73A9\u610F\u513F\u6839\u672C\u6CA1\u529E\u6CD5\u4EA4\u6D41\uFF01\u8981\u5F00\u59CB\u6218\u6597\u4E86\uFF01"
+        isNeedPause: 1
+        isOver: 1
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 1
+    DialIndex: 0
+    GetBagItems:
+    - BagItemID: 1104
+      BagItemAmount: 1
+    - BagItemID: 1202
+      BagItemAmount: 1
+  - EnemyID: 10004
+    EnemyName: "\u53D8\u5F02\u9E21"
+    EnemyFace: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    EnemyFaceInBattle: {fileID: 21300000, guid: 7269db6ee5cf1fc43b39f1c293fa037d, type: 3}
+    AttackMax: 30
+    AttackMin: 40
+    defenseMax: 80
+    defenseMin: 85
+    MaxHP: 50
+    EnemyChooseType: 2
+    dialogueElemList:
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u8FD9\u53EA\u9E21\u8EAB\u4E0A\u4E3A\u4EC0\u4E48\u957F\u4E86\u7261\u86CE\uFF1F"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u662F\u5426\u6218\u6597\uFF1F"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 0
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: 
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: ShowSelectPanel
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+            - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+              m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+              m_MethodName: IfBattleInstantiateSelectButton
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+        isFight: 0
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u51C6\u5907\u6218\u6597\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 1
+    - CustomerID: 0
+      isThisDialDone: 0
+      DialListElem:
+      - PeopleImage: {fileID: 0}
+        isLeft: 0
+        PeopleName: "\u6211"
+        DialogueText: "\u8FD9\u73A9\u610F\u513F\u6839\u672C\u65E0\u6CD5\u4EA4\u6D41\u2026\u2026\u8981\u5F00\u59CB\u6218\u6597\u4E86\uFF01"
+        isNeedPause: 1
+        isOver: 0
+        AfterSentenceFinish:
+          m_PersistentCalls:
+            m_Calls: []
+        isFight: 1
+    DialIndex: 0
+    GetBagItems:
+    - BagItemID: 1203
+      BagItemAmount: 1
+    - BagItemID: 1201
+      BagItemAmount: 1
+  - EnemyID: 10005
+    EnemyName: 
+    EnemyFace: {fileID: 0}
+    EnemyFaceInBattle: {fileID: 0}
+    AttackMax: 0
+    AttackMin: 0
+    defenseMax: 0
+    defenseMin: 0
+    MaxHP: 0
+    EnemyChooseType: 0
+    dialogueElemList: []
+    DialIndex: 0
+    GetBagItems: []

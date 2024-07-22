@@ -1,0 +1,600 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8319983d3fe01e64d8a73cc4b79b1a36, type: 3}
+  m_Name: ItemList
+  m_EditorClassIdentifier: 
+  itemDetailsList:
+  - ItemID: 1101
+    ItemName: "\u8089\u6CE5\u7F50\u5934"
+    ItemDescribe: "\u597D\u5403\u7BA1\u9971\uFF0C\u4E0D\u8FC7\u6709\u70B9\u8D35"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: d94f302503c810e46ae87dce0dff7bd2, type: 3}
+    itemPrice: 12
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 1102
+    ItemName: "\u6CD5\u68CD\u9762\u5305"
+    ItemDescribe: "\u8981\u662F\u80FD\u914D\u4E0A\u9EC4\u6CB9\uFF0C\u5C31\u66F4\u597D\u5403\u4E86"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 957de0fcc6cdfde4691611e2d86fe1bd, type: 3}
+    itemPrice: 8
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 1103
+    ItemName: "\u706B\u817F\u80A0"
+    ItemDescribe: "\u6CA1\u4EBA\u4E0D\u7231\uFF0C\u5F88\u9999\u5F88\u597D\u5403"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: be6e616a279425d418648a4b61e0bde5, type: 3}
+    itemPrice: 3
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 1104
+    ItemName: "\u666E\u901A\u997C\u5E72"
+    ItemDescribe: "\u5473\u9053\u4E0D\u9519\uFF0C\u4F46\u4E0D\u7BA1\u9971"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: d20472d1411e30041ae223fb95edf9b8, type: 3}
+    itemPrice: 2
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 1105
+    ItemName: "\u538B\u7F29\u997C\u5E72"
+    ItemDescribe: "\u5473\u9053\u5B9E\u5728\u4E0D\u600E\u4E48\u6837\u7684\u5E72\u7CAE\uFF08\u4ECB\u610F\u52FF\u62CD\uFF09"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: c784c4ecc54bae34e978be78b4af24b7, type: 3}
+    itemPrice: 3
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 1201
+    ItemName: "\u571F\u8C46"
+    ItemDescribe: "\u7B80\u5355\u84B8\u4E00\u4E0B\u5C31\u80FD\u5403\uFF0C\u5FEB\u624B\u61D2\u4EBA\u9910"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: eccc617e380a4b74e86493381c33558a, type: 3}
+    itemPrice: 2
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 1202
+    ItemName: "\u9762\u7C89"
+    ItemDescribe: "\u78B3\u6C34\u7231\u597D\u8005\u72C2\u559C\uFF01"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: f4f22055ec86c3c4abcbf8625ad44b24, type: 3}
+    itemPrice: 15
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 1203
+    ItemName: "\u8C46\u5B50"
+    ItemDescribe: "\u71AC\u7CA5\u559D\u5E94\u8BE5\u4E0D\u9519\uFF0C\u6696\u548C\u53C8\u625B\u997F"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 666a811803de2b045bbb2b14db7954d9, type: 3}
+    itemPrice: 15
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 1301
+    ItemName: "\u74F6\u88C5\u6C34"
+    ItemDescribe: "\u7A00\u7F3A\u8D44\u6E90\uFF0C\u5F88\u503C\u94B1"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: e1d99824361f46045821da78d04cd04e, type: 3}
+    itemPrice: 10
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 2101
+    ItemName: "\u6B62\u75DB\u836F\u7247"
+    ItemDescribe: "\u6682\u65F6\u7528\u5B83\u9EBB\u75F9\u4E00\u4E0B\u8EAB\u4F53\u7684\u75BC\u75DB\u5427"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: e1ff58170120fa94db1c88f7ed5fd8cc, type: 3}
+    itemPrice: 20
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 2102
+    ItemName: "\u5E03\u6D1B\u82AC\u80F6\u56CA"
+    ItemDescribe: "\u89E3\u70ED\u9547\u75DB\uFF0C\u5BB6\u4E2D\u5E38\u5907"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: e1ff58170120fa94db1c88f7ed5fd8cc, type: 3}
+    itemPrice: 30
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 2103
+    ItemName: "\u963F\u83AB\u897F\u6797\u80F6\u56CA"
+    ItemDescribe: "\u6297\u751F\u7D20\u7C7B\u836F\u7269\uFF0C\u6297\u83CC\u80FD\u529B\u6EE1\u5206"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 85fbbf0548e26044a8920521a3509dea, type: 3}
+    itemPrice: 25
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 2104
+    ItemName: "\u7F8E\u7F57\u57F9\u5357\u6CE8\u5C04\u6DB2"
+    ItemDescribe: "\u7528\u4E8E\u654F\u611F\u83CC\u6240\u81F4\u7684\u5404\u7C7B\u611F\u67D3\uFF08\u5C0F\u5FC3\u8FC7\u654F\uFF01\uFF09"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 3f49ee7ba1dcaf846b680d2e2ef7e374, type: 3}
+    itemPrice: 40
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 2201
+    ItemName: "\u5417\u5561\u7C89\u672B"
+    ItemDescribe: "\u5F3A\u70C8\u7684\u9EBB\u9189\u4E0E\u9547\u75DB\u4F5C\u7528\u3002\u8C28\u614E\u4F7F\u7528\uFF0C\u5C0F\u5FC3\u6210\u763E\uFF01\uFF01"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 5be35f3eb8337974cbcc1adb5ec0c5ef, type: 3}
+    itemPrice: 50
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 2202
+    ItemName: "\u4E19\u6CCA\u915A\u6CE8\u5C04\u6DB2"
+    ItemDescribe: "\u5168\u8EAB\u9EBB\u9189\u836F\u7269"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 47e21cb6fc845004f98535cfab3662f0, type: 3}
+    itemPrice: 25
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 2203
+    ItemName: "\u963F\u666E\u9509\u4ED1\u836F\u7247"
+    ItemDescribe: "\u9547\u9759\u50AC\u7720\u836F\u7269\uFF0C\u4E5F\u53EF\u4EE5\u7528\u4E8E\u6297\u60CA\u6050"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 7740c87aef94ccf46bd4417a50553d50, type: 3}
+    itemPrice: 20
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 2204
+    ItemName: "\u82AC\u592A\u5C3C\u6CE8\u5C04\u6DB2"
+    ItemDescribe: "\u5F3A\u6548\u6B62\u75DB\u5242\uFF0C\u4E5F\u53EF\u4EE5\u7528\u4E8E\u624B\u672F\u9EBB\u9189"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 6365d8c98d749f64499783b6cb4f1491, type: 3}
+    itemPrice: 6
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 2301
+    ItemName: "\u6CE8\u5C04\u5668"
+    ItemDescribe: "\u7D27\u7F3A\u53C8\u91CD\u8981\u7684\u533B\u7597\u8D44\u6E90"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 080dd471e9bfb19439ea135a03bea99e, type: 3}
+    itemPrice: 4
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 2302
+    ItemName: "\u6B62\u8840\u7EF7\u5E26"
+    ItemDescribe: "\u5F88\u597D\u7528\uFF0C\u4F46\u522B\u641E\u6210\u6728\u4E43\u4F0A"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 7575d6df1be9cde47af46836bf0f261d, type: 3}
+    itemPrice: 4
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 2303
+    ItemName: "\u9632\u6BD2\u9762\u5177"
+    ItemDescribe: "\u6234\u4E0A\u6709\u70B9\u4E11"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 1316cacaf2bb18c48b87e533598e9556, type: 3}
+    itemPrice: 15
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 2304
+    ItemName: "\u9632\u62A4\u670D"
+    ItemDescribe: "\u761F\u75AB\u4E25\u91CD\uFF0C\u505A\u597D\u9632\u62A4\uFF01"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 4a98e5e62f6c978478810f75fc2dc6d5, type: 3}
+    itemPrice: 30
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 3101
+    ItemName: "\u6C34\u679C\u5200"
+    ItemDescribe: "\u8FD9\u9B3C\u5730\u65B9\u6CA1\u6709\u6C34\u679C\uFF0C\u4F46\u6709\u6C34\u679C\u5200\uFF1F\uFF1F"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 162e14e4887843248b1d340e6143090e, type: 3}
+    itemPrice: 4
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 3102
+    ItemName: "\u957F\u5200"
+    ItemDescribe: "\u6B66\u58EB\u7684\u957F\u5200\uFF0C\u4E0D\u77E5\u4E3A\u4F55\u4F1A\u51FA\u73B0\u5728\u8FD9\u91CC"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: c415842c2ebc3394faf09af07f7eec06, type: 3}
+    itemPrice: 7
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 3201
+    ItemName: "\u5C0F\u624B\u67AA"
+    ItemDescribe: "\u4FBF\u643A\u4E14\u6740\u4F24\u529B\u8F83\u5F3A\uFF0C\u4E0D\u8FC7\u7784\u51C6\u6027\u80FD\u4E00\u822C\u822C"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: c415842c2ebc3394faf09af07f7eec06, type: 3}
+    itemPrice: 80
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 3202
+    ItemName: "\u624B\u69B4\u5F39"
+    ItemDescribe: "\u7834\u574F\u529B\u8D85\u5F3A\uFF01\u8C28\u614E\u4F7F\u7528\uFF01"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: c415842c2ebc3394faf09af07f7eec06, type: 3}
+    itemPrice: 100
+    canEquip: 1
+    canWeapon: 1
+    ItemEquipAttack: 100
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 98
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 3301
+    ItemName: "\u8F6E\u80CE"
+    ItemDescribe: "\u505A\u5BB6\u5177\u8FD8\u662F\u5F88\u4E0D\u9519\u7684"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: b796c22f974c7bf4ca8f33b94040d8dd, type: 3}
+    itemPrice: 15
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 3302
+    ItemName: "\u87BA\u4E1D"
+    ItemDescribe: "\u4E0D\u8D77\u773C\uFF0C\u4F46\u5F88\u6709\u7528"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 7101a8aca125e5d4490a6c395682f17e, type: 3}
+    itemPrice: 1
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 3303
+    ItemName: "\u6C34\u6876"
+    ItemDescribe: "\u53D6\u6C34\u5DE5\u5177\uFF0C\u8BB0\u5F97\u8981\u53BB\u6C34\u5382\u63A5\u5E72\u51C0\u7684\u6C34"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: c415842c2ebc3394faf09af07f7eec06, type: 3}
+    itemPrice: 2
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 3304
+    ItemName: "\u5C0F\u578B\u94F2"
+    ItemDescribe: "\u4FBF\u643A\u5C0F\u5DE5\u5177\uFF0C\u529F\u80FD\u9F50\u5168"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 4a4e4ebd3734bb543a318bfc3da085d2, type: 3}
+    itemPrice: 4
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 3305
+    ItemName: "\u94C1\u9539"
+    ItemDescribe: "\u6316\u4E00\u6316\uFF0C\u4E07\u4E00\u80FD\u53D1\u73B0\u4EC0\u4E48\u5730\u4E0B\u5B9D\u85CF\u5462"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 3b45d9dfbf9950941aca77246bb39c6e, type: 3}
+    itemPrice: 7
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 3306
+    ItemName: "\u5C0F\u578B\u65A7\u5B50"
+    ItemDescribe: "\u597D\u7528\u53C8\u987A\u624B\u7684\u5C0F\u5DE5\u5177"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 878e3ed37165e104096b4377698d5482, type: 3}
+    itemPrice: 6
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 3307
+    ItemName: "\u5927\u578B\u65A7\u5B50"
+    ItemDescribe: "\u597D\u7528\uFF01\u4E70\u5C31\u5B8C\u4E86\uFF01"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: c415842c2ebc3394faf09af07f7eec06, type: 3}
+    itemPrice: 10
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 3401
+    ItemName: "\u9632\u5F39\u8863"
+    ItemDescribe: "\u9632\u5FA1\u529B\u6EE1\u5206\u7684\u62A4\u5177\uFF0C\u53EF\u4EE5\u514D\u53D7\u6218\u533A\u67AA\u5F39\u7684\u653B\u51FB"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 4a98e5e62f6c978478810f75fc2dc6d5, type: 3}
+    itemPrice: 60
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 3402
+    ItemName: "\u94C1\u76AE\u76FE\u724C"
+    ItemDescribe: "\u7B28\u91CD\u4F46\u6709\u6548\u7684\u62A4\u5177\uFF0C\u6218\u6597\u65F6\u53EF\u7528"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: c415842c2ebc3394faf09af07f7eec06, type: 3}
+    itemPrice: 20
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 4101
+    ItemName: "\u6811\u679D"
+    ItemDescribe: "\u91CD\u8981\u7684\u751F\u706B\u6750\u6599"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 845bfbb262173574680b0cc09d65f5dd, type: 3}
+    itemPrice: 3
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 4102
+    ItemName: "\u679C\u5B50"
+    ItemDescribe: "\u96BE\u5403\u7684\u91CE\u679C\uFF0C\u52C9\u5F3A\u679C\u8179"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 659f9871c9b89054ea3124fa765195dd, type: 3}
+    itemPrice: 2
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 4201
+    ItemName: "\u5E10\u7BF7"
+    ItemDescribe: "\u4F4F\u6240\u88AB\u7834\u574F\u65F6\uFF0C\u53EA\u80FD\u52C9\u5F3A\u4F4F\u5728\u8FD9\u91CC"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: c415842c2ebc3394faf09af07f7eec06, type: 3}
+    itemPrice: 30
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 4202
+    ItemName: "\u7761\u888B"
+    ItemDescribe: "\u6237\u5916\u8FC7\u591C\u65F6\u4E0D\u88AB\u51BB\u50F5\u7684\u5FC5\u9700\u54C1"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: c415842c2ebc3394faf09af07f7eec06, type: 3}
+    itemPrice: 15
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 4301
+    ItemName: "\u8863\u7269"
+    ItemDescribe: "\u5929\u6C14\u5F88\u51B7\uFF0C\u8BB0\u5F97\u591A\u7A7F\u70B9\u513F"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: c415842c2ebc3394faf09af07f7eec06, type: 3}
+    itemPrice: 10
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 4302
+    ItemName: "\u6C7D\u6CB9\u6876"
+    ItemDescribe: "\u538B\u6241\u540E\u53EF\u5F97\u5230\u4E00\u5F20\u597D\u7528\u7684\u94C1\u76AE"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 932d835bba075dc45b6abe761d89c198, type: 3}
+    itemPrice: 12
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 4303
+    ItemName: "\u56F4\u5DFE"
+    ItemDescribe: "\u5FA1\u5BD2\u4FDD\u6696\u795E\u5668"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: c415842c2ebc3394faf09af07f7eec06, type: 3}
+    itemPrice: 5
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 4304
+    ItemName: "\u58A8\u955C"
+    ItemDescribe: "\u53EA\u6709yang\u8FD9\u4E2A\u602A\u4EBA\u624D\u4F1A\u9700\u8981\u8FD9\u602A\u4E1C\u897F"
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: 8cbf137cff70974439fa86683be73e59, type: 3}
+    itemPrice: 5
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 4305
+    ItemName: "\u80A5\u7682"
+    ItemDescribe: "\u6CA1\u4EC0\u4E48\u7528\u7684\u4E1C\u897F......."
+    ItemSprite: {fileID: 21300000, guid: 664eff3a3e9bfb84386f85fb8b949331, type: 3}
+    ItemIcon: {fileID: 21300000, guid: d676f279b84e63844be9857c43569747, type: 3}
+    itemPrice: 1
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 0
+    ItemName: 
+    ItemDescribe: 
+    ItemSprite: {fileID: 0}
+    ItemIcon: {fileID: 21300000, guid: c415842c2ebc3394faf09af07f7eec06, type: 3}
+    itemPrice: 0
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0
+  - ItemID: 0
+    ItemName: 
+    ItemDescribe: 
+    ItemSprite: {fileID: 0}
+    ItemIcon: {fileID: 21300000, guid: c415842c2ebc3394faf09af07f7eec06, type: 3}
+    itemPrice: 0
+    canEquip: 0
+    canWeapon: 0
+    ItemEquipAttack: 0
+    ItemEquipDefense: 0
+    ItemWeaponAttack: 0
+    ItemWeaponDefense: 0
+    canHold: 0

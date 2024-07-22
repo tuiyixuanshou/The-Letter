@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BoundColl
+  - FadeCanvas
+  - ConsumePanel
+  - ItemParent
+  - Testing
+  - NPC
+  - HomeEventParent
+  - NPCParent
+  - LayOutGroupParent
+  - FadeShopPanel
+  - SelectPanel
+  - TradeUI
+  - TradeSubmitPanel
+  - GetItemPanel
+  - FadePanelforDial
+  - YaoFan
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - BackGround
+  - 
+  - Instance
+  - 
+  - FrontGround
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer
+    uniqueID: 270051109
+    locked: 0
+  - name: New Layer
+    uniqueID: 223389865
+    locked: 0
+  - name: Instance
+    uniqueID: 3477456971
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 3247696005
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 1210050073
+    locked: 0
+  - name: FogInstance
+    uniqueID: 159065909
+    locked: 0

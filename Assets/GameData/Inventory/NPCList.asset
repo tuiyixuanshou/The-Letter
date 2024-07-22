@@ -1,0 +1,559 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e15c2f39d9ba44ca1e144655f2c2b8, type: 3}
+  m_Name: NPCList
+  m_EditorClassIdentifier: 
+  NPCDetailsList:
+  - NPCName: "\u8001\u4EBA"
+    NPCID: 6001
+    NPCFace: {fileID: 21300000, guid: cd140a2b123011044a9b59eddb1376aa, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 21300000, guid: 3c96755b35557fc49a1c46664b2b3d31, type: 3}
+      isLeft: 1
+      PeopleName: "\u8001\u4EBA"
+      DialogueText: "\u8FD9\u91CC\u5DF2\u7ECF\u6CA1\u6709\u4EC0\u4E48\u4E1C\u897F\u4E86\u3002"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 21300000, guid: 3c96755b35557fc49a1c46664b2b3d31, type: 3}
+      isLeft: 1
+      PeopleName: "\u8001\u4EBA"
+      DialogueText: "\u5E74\u8F7B\u4EBA\uFF0C\u4F60\u8981\u662F\u8FD8\u6709\u529B\u6C14\uFF0C\u53EF\u4EE5\u53BB\u75AB\u533A\u770B\u770B"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 21300000, guid: 3c96755b35557fc49a1c46664b2b3d31, type: 3}
+      isLeft: 1
+      PeopleName: "\u8001\u4EBA"
+      DialogueText: "\u867D\u7136\u5371\u9669\uFF0C\u4F46\u662F\u90A3\u91CC\u8FD8\u662F\u6709\u4E9B\u597D\u4E1C\u897F\u7684~"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u4E8B\u9879-\u4EE3\u529E\u5DF2\u66F4\u65B0"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+            m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+            m_MethodName: callLayOutGroupAddEvent
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: "\u53BB\u75AB\u533A\u770B\u770B\uFF0C\u6216\u8BB8\u80FD\u6709\u597D\u4E1C\u897F"
+              m_BoolArgument: 0
+            m_CallState: 2
+    dialogueDatas1:
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u8001\u4EBA"
+      DialogueText: "\u5FEB\u8D70\u5F00\uFF01\u6211\u8FD9\u91CC\u6CA1\u6709\u5176\u4ED6\u6D88\u606F\u6253\u542C\u4E86\uFF01"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    NPCposition:
+      x: -20
+      y: 10
+      z: 0
+  - NPCName: "\u519B\u4E8B\u8FF7"
+    NPCID: 6002
+    NPCFace: {fileID: 21300000, guid: c7b2d771bc735a64a956face3d9bacd1, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 21300000, guid: 84303e1e15d276549b60f0167c167433, type: 3}
+      isLeft: 1
+      PeopleName: "\u519B\u4E8B\u8FF7"
+      DialogueText: "\u6211\u65F6\u5E38\u89C9\u5F97\u8FD9\u6B21\u6218\u4E89\u5F88\u5947\u602A......."
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 21300000, guid: 84303e1e15d276549b60f0167c167433, type: 3}
+      isLeft: 1
+      PeopleName: "\u519B\u4E8B\u8FF7"
+      DialogueText: "\u4F60\u770B\u8FD9\u4E9B\u67AA\u70AE\uFF0C\u6211\u660E\u660E\u8BB0\u5F97\u662F\u4E8C\u5341\u5E74\u524D\u7684\u578B\u53F7\u3002"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 21300000, guid: 84303e1e15d276549b60f0167c167433, type: 3}
+      isLeft: 1
+      PeopleName: "\u519B\u4E8B\u8FF7"
+      DialogueText: "\u53EF\u662F\u4E3A\u4EC0\u4E48\uFF0C\u5374\u6CA1\u6709\u4EBA\u8BB0\u5F97\u6218\u4E89\u7684\u5F00\u59CB\u5462\u3002"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: 
+      DialogueText: "\u83B7\u5F97\u65B0\u4FE1\u606F\uFF1A\u519B\u4E8B\u8FF7\u89C9\u5F97\u81EA\u5DF1\u4E0D\u5E94\u8BE5\u5FD8\u8BB0\u6218\u4E89\u7684\u5F00\u59CB\u3002\u5DF2\u5728\u4E8B\u9879-\u4EE3\u529E\u4E2D\u66F4\u65B0\u3002"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+            m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+            m_MethodName: callLayOutGroupAddEvent
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: "\u65B0\u4FE1\u606F\uFF1A\u9057\u5FD8\u6218\u4E89\u8FD9\u4EF6\u4E8B\u662F\u4E0D\u5408\u7406\u7684"
+              m_BoolArgument: 0
+            m_CallState: 2
+    dialogueDatas1:
+    - PeopleImage: {fileID: 21300000, guid: 84303e1e15d276549b60f0167c167433, type: 3}
+      isLeft: 1
+      PeopleName: "\u519B\u4E8B\u8FF7"
+      DialogueText: "\u5947\u602A\u554A......\u771F\u662F\u5947\u602A......"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    NPCposition:
+      x: -7.7
+      y: -4.2
+      z: 0
+  - NPCName: "\u805A\u4F17\u58EB\u5175"
+    NPCID: 6003
+    NPCFace: {fileID: 21300000, guid: 323514f30395075408ba4ee46a7f6a4f, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175C"
+      DialogueText: "\u771F\u60F3\u627E\u70B9**\u62BD\u554A\uFF01"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175C"
+      DialogueText: "\u5636\u2014\u2014\u5C31\u8FD9\u4E48\u5438\u4E0A\u4E00\u53E3"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175C"
+      DialogueText: "\u53EF\u771F\u662F\u5982\u4E34\u4ED9\u5883\u554A\u2014\u2014\uFF08\u9676\u9189\u72B6\uFF09"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175B"
+      DialogueText: "\u60F3\u627E\u90A3\u73A9\u610F\u8FD8\u4E0D\u5BB9\u6613\uFF0C\u53BB\u9ED1\u5E02\u554A\uFF01"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175B"
+      DialogueText: "\u5356\u5565\u7684\u90FD\u6709\uFF0C\u563F\u563F\u751A\u81F3......\u8FD8\u80FD\u627E\u5973\u4EBA\u6765\u73A9\u73A9"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175A"
+      DialogueText: "\u54DF\uFF08\u72E1\u9EE0\u6253\u8DA3\uFF09\u770B\u6765\u4F60\u6CA1\u5C11\u73A9\u554A"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175B"
+      DialogueText: "\u563F\u563F\u563F\u563F\uFF0C\u4E0A\u6B21\u5728\u90A3\u513F\u73A9\u4E86\u4E00\u4E2A\u5973\u7684\uFF0C\u65AF\u7279\u7F2A\u5C14\u7684\u3002"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175A"
+      DialogueText: "\u65AF\u7279\u7F2A\u5C14\u65CF\u4E0D\u662F\u5F88\u6015\u9ED1\u96FE\u5417\uFF1F"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175A"
+      DialogueText: "\u600E\u4E48\u8FD8\u80FD\u5728\u8FD9\u9644\u8FD1\u63A5\u5BA2\u5462"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175C"
+      DialogueText: "\u5BCC\u8D35\u9669\u4E2D\u6C42\u5457\uFF01"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175C"
+      DialogueText: "\u518D\u8BF4\u4E86\uFF0C\u9ED1\u7C89\u90A3\u73A9\u610F\u662F\u6C34\u6EB6\u6027\u7684\uFF0C"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175C"
+      DialogueText: "\u7528\u6C34\u6EB6\u89E3\u6389\u4E5F\u5C31\u6CA1\u4EC0\u4E48\u4F24\u5BB3\u4E86"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175B"
+      DialogueText: "\u800C\u4E14\u554A\uFF0C\u65AF\u7279\u7F2A\u5C14\u548C\u4EBA\u662F\u6709\u751F\u6B96\u9694\u79BB\u7684"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175B"
+      DialogueText: "\u653E\u5FC3\u73A9\u513F\uFF0C\u53C8\u4E0D\u4F1A\u628A\u5973\u7684\u809A\u5B50\u641E\u5927\uFF01"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 21300000, guid: 8db5334d135db3841b72c6166a8c81f6, type: 3}
+      isLeft: 1
+      PeopleName: "\u6211"
+      DialogueText: "\uFF08\u82E5\u6709\u6240\u601D\uFF09\u9ED1\u5E02....."
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u83B7\u5F97\u65B0\u4FE1\u606F\uFF1A\u9ED1\u5E02\uFF08\u5730\u56FE\u5DF2\u89E3\u9501\uFF09"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u83B7\u5F97\u65B0\u4FE1\u606F\uFF1A\u65AF\u7279\u7F2A\u5C14\u4EBA\uFF1F\uFF08\u4E8B\u9879-\u4EE3\u529E\u5DF2\u66F4\u65B0\uFF09"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+            m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+            m_MethodName: callLayOutGroupAddEvent
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: "\u65B0\u4FE1\u606F\uFF1A\u65AF\u7279\u7F2A\u5C14\u65CF\uFF1F"
+              m_BoolArgument: 0
+            m_CallState: 2
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u83B7\u5F97\u65B0\u4FE1\u606F\uFF1A\u9ED1\u7C89\u6216\u8BB8\u53EF\u4EE5\u6EB6\u4E8E\u6C34"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+            m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+            m_MethodName: callLayOutGroupAddEvent
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: "\u65B0\u4FE1\u606F\uFF1A\u9ED1\u7C89\u6216\u8BB8\u53EF\u4EE5\u6EB6\u4E8E\u6C34"
+              m_BoolArgument: 0
+            m_CallState: 2
+    dialogueDatas1:
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u58EB\u5175"
+      DialogueText: "\u6EDA\u5F00\uFF01\u60F3\u5403\u67AA\u5B50\u513F\u4E86\uFF1F\uFF1F"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    NPCposition:
+      x: -8
+      y: -12
+      z: 0
+  - NPCName: "\u6BCD\u5B50"
+    NPCID: 6101
+    NPCFace: {fileID: 21300000, guid: bf8e949ea2d2b3c40a58e49080f83dd9, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u6BCD\u4EB2"
+      DialogueText: "\u5B69\u5B50\u554A\u6211\u7684\u5B69\u5B50...\u600E\u4E48\u5C31\u75C5\u5012\u4E86\u5462\uFF1F"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u5B69\u5B50"
+      DialogueText: "\u54B3\u54B3...\u54B3\u54B3...\u5988\u5988....\u6211\u597D\u96BE\u53D7....."
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u6BCD\u4EB2"
+      DialogueText: "\u5B69\u5B50\uFF0C\u5988\u5988\u4E00\u5B9A\u60F3\u529E\u6CD5\u7ED9\u4F60\u641E\u5230\u836F"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 21300000, guid: 8db5334d135db3841b72c6166a8c81f6, type: 3}
+      isLeft: 1
+      PeopleName: "\u6211"
+      DialogueText: "\uFF08\u9ED8\u9ED8\u5FC3\u60F3\uFF09\u597D\u53EF\u601C\u7684\u6BCD\u5B50\uFF0C\u795D\u4ED6\u4EEC\u5E73\u5B89"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    dialogueDatas1: []
+    NPCposition:
+      x: 16
+      y: -14
+      z: 0
+  - NPCName: "\u8001\u4EBA\u4EEC"
+    NPCID: 6102
+    NPCFace: {fileID: 21300000, guid: 37d4870b2bbd46844af8d6ae20ff5610, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u8001\u4EBAA"
+      DialogueText: "\u5509......\u51E0\u5929\u6CA1\u5403\u996D\u4E86.....\u597D\u997F"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u8001\u4EBAB"
+      DialogueText: "\u6211\u4E5F\u662F\u554A\uFF0C\u8FD9\u628A\u8001\u9AA8\u5934\uFF0C\u8981\u625B\u4E0D\u4F4F\u54AF"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u8001\u4EBAC"
+      DialogueText: "\u8C01\u77E5\u9053\u5462\uFF0C\u653F\u5E9C\u7684\u7269\u8D44\u4ECA\u5929\u4F1A\u53D1\u653E\u7684\u5427"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u8001\u4EBAB"
+      DialogueText: "\u662F\u554A\uFF0C\u4F46\u6211\u4EEC\u4E5F\u62A2\u4E0D\u5230\u4EC0\u4E48\u6709\u7528\u7684\u5427"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u8001\u4EBAC"
+      DialogueText: "\u4E00\u4F1A\u513F\u54B1\u4EEC\u53BB\u9886\u5427\uFF0C\u8BF4\u4E0D\u5B9A\u4F1A\u6709\u4EC0\u4E48\u5462"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    dialogueDatas1: []
+    NPCposition:
+      x: 36
+      y: -15
+      z: 0
+  - NPCName: "\u59D0\u5F1F\u4E8C\u4EBA"
+    NPCID: 6103
+    NPCFace: {fileID: 21300000, guid: a178bf488f394e54e9e1592b7854c372, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u59D0\u59D0"
+      DialogueText: "\u5F1F\u5F1F\u6211\u4EEC\u5FEB\u70B9\u513F\u8D70\u5427\uFF0C\u5BB6\u91CC\u6696\u548C"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u5F1F\u5F1F"
+      DialogueText: "\u59D0\u59D0\u6211\u597D\u7D2F\uFF0C\u597D\u51E0\u5929\u6CA1\u5403\u5230\u4E1C\u897F\u4E86"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 21300000, guid: 8db5334d135db3841b72c6166a8c81f6, type: 3}
+      isLeft: 1
+      PeopleName: "\u6211"
+      DialogueText: "\u4ECA\u5929\u5B89\u5168\u533A\u4F1A\u6709\u7269\u8D44\u4E0B\u653E\uFF0C\u4F60\u4EEC\u53EF\u4EE5\u53BB\u9886\u4E00\u4E9B\u586B\u9971\u809A\u5B50"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: "\u59D0\u59D0&&\u5F1F\u5F1F"
+      DialogueText: "\uFF08\u7528\u4EAE\u6676\u6676\u7684\u773C\u775B\u770B\u7740\u4F60
+        \u9F50\u58F0\u8BF4\u9053\uFF09\u8C22\u8C22\u53D4\u53D4\uFF01\uFF01"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    dialogueDatas1: []
+    NPCposition:
+      x: 15
+      y: -1
+      z: 0
+  - NPCName: "\u5947\u602A\u7684\u4FE9\u4EBA"
+    NPCID: 6104
+    NPCFace: {fileID: 21300000, guid: c6bf8bde065c19245b71cff5c2f1409f, type: 3}
+    dialogueDatas:
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: A
+      DialogueText: "\u8BE5\u6B7B\uFF01\uFF01\u5230\u5E95\u8BE5\u5F80\u54EA\u8D70\uFF01\uFF01\u6E34\u6B7B\u8001\u5A18\u4E86\uFF01\uFF01"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: B
+      DialogueText: "\u522B\u614C\u522B\u614C\uFF0C\u6211\u4EEC\u95EE\u95EE\u8FD9\u4E2A\u5927\u54E5\u3002"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: B
+      DialogueText: "\u5927\u54E5\uFF01\uFF01\u53BB\u54EA\u6253\u6C34\u554A\uFF1F"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 21300000, guid: 8db5334d135db3841b72c6166a8c81f6, type: 3}
+      isLeft: 1
+      PeopleName: "\u6211"
+      DialogueText: "\uFF08\u554A \uFF1F\u662F\u5728\u95EE\u6211\u5417\uFF09"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 21300000, guid: 8db5334d135db3841b72c6166a8c81f6, type: 3}
+      isLeft: 1
+      PeopleName: "\u6211"
+      DialogueText: "\u5728\u897F\u5317\u8FB9\uFF0C\u4ECE\u516C\u56ED\u7A7F\u8FC7\u53BB\u5C31\u80FD\u770B\u5230...."
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    - PeopleImage: {fileID: 0}
+      isLeft: 1
+      PeopleName: A
+      DialogueText: "\u597D\u597D\u597D\uFF01\uFF01\uFF01\u8C22\u8C22\u4F60\uFF0C\u6211\u4EEC\u8FD9\u5C31\u8FC7\u53BB\u3002"
+      isNeedPause: 1
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+    dialogueDatas1: []
+    NPCposition:
+      x: 8
+      y: -11
+      z: 0

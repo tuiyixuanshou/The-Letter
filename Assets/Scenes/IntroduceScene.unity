@@ -1,0 +1,1663 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &81560102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 81560103}
+  - component: {fileID: 81560104}
+  m_Layer: 0
+  m_Name: BackGround
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &81560103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81560102}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 484812074}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &81560104
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81560102}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 95c270f204fa0c14284623a80b240bb9, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.6, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &362591280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 362591281}
+  - component: {fileID: 362591284}
+  - component: {fileID: 362591283}
+  - component: {fileID: 362591282}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &362591281
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362591280}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1610090904}
+  m_Father: {fileID: 438166964}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -6.77}
+  m_SizeDelta: {x: 1960, y: 798}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &362591282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362591280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
+--- !u!114 &362591283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362591280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 92f0fb740080397499f1dcefafb8d538, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &362591284
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362591280}
+  m_CullTransparentMesh: 1
+--- !u!1 &438166960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 438166964}
+  - component: {fileID: 438166963}
+  - component: {fileID: 438166962}
+  - component: {fileID: 438166961}
+  - component: {fileID: 438166965}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &438166961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438166960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &438166962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438166960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &438166963
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438166960}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 2
+  m_TargetDisplay: 0
+--- !u!224 &438166964
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438166960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1905908161}
+  - {fileID: 362591281}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &438166965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 438166960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 570b3f14ef365fc4d930530340f82e05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Kaichangbai: {fileID: 362591283}
+  MoveText: {fileID: 1610090905}
+  TextTarPos: 855
+  movespeed: 400
+  Panel1: {fileID: 1905908162}
+  currentDialList:
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: "\u4ECA\u5929\u6700\u540E\u4E00\u4E2A\u8089\u6CE5\u7F50\u5934\u4E86\uFF01\u9519\u8FC7\u4E86\u5C31\u6CA1\u4E86\uFF0C\u8C01\u8981\uFF01"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u4EBA\u7FA4"
+    DialogueText: "\uFF08\u4F17\u4EBA\u4E89\u62A2\uFF09\u6211\u6211\u6211\u2026\u2026\u8001\u677F\u7ED9\u6211\uFF01"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: "\u54CE\u54CE\uFF0C\u4E0D\u8981\u62A2\uFF0C\u4E0D\u8981\u62A2\u2026\u2026\u4E0D\u8981\u62A2\uFF01"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: "\uFF08\u53D1\u6012\uFF09\u8C01\u518D\u6562\u62A2\uFF01\u4E0B\u6B21\u6C38\u8FDC\u4E0D\u51C6\u6765\u62FF\u8D27\u4E86\uFF01"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u4EBA\u7FA4"
+    DialogueText: "\uFF08\u7A81\u7136\u5B89\u9759\u4E86\u4E0B\u6765\uFF09"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "AAA\u98DF\u54C1\u6279\u53D1\u5F6A\u54E5"
+    DialogueText: "\uFF08\u966A\u7B11\u8138\uFF09\u8001\u677F\uFF0C\u60A8\u8FD9\u751F\u610F\u505A\u7684\u771F\u4E0D\u9519\u5440"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "AAA\u98DF\u54C1\u6279\u53D1\u5F6A\u54E5"
+    DialogueText: "\uFF08\u7EE7\u7EED\u606D\u7EF4\uFF09\u8FD9A\u533A\u5E7F\u573A\u65B9\u5706\u51E0\u516C\u91CC\uFF0C\u54EA\u91CC\u4E0D\u662F\u60A8\u7684\u5730\u76D8\uFF1F"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "AAA\u98DF\u54C1\u6279\u53D1\u5F6A\u54E5"
+    DialogueText: "A\u533A\u7684\u4EBA\u8C01\u4E0D\u77E5\u9053\uFF0C\u8001\u677F\u60A8\u8FD9\u91CC\u7684\u8D27\u554A\uFF0C\u6700\u591A\u6700\u597D\uFF01"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "AAA\u98DF\u54C1\u6279\u53D1\u5F6A\u54E5"
+    DialogueText: "\u5927\u4F19\u513F\u554A\u53EF\u90FD\u4EF0\u4ED7\u60A8\uFF0C\u4EF0\u4ED7\u60A8\u624D\u80FD\u5728\u8FD9\u8BE5\u6B7B\u7684\u6218\u4E89\u91CC\u6D3B\u4E0B\u53BB\u561E\uFF08\u70B9\u5934\u54C8\u8170\uFF09"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: "\uFF08\u8F7B\u8511\uFF09\u621A\uFF0C\u8FD9\u6709\u4EC0\u4E48\u96BE\u7684\uFF1F"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "AAA\u98DF\u54C1\u6279\u53D1\u5F6A\u54E5"
+    DialogueText: "\uFF08\u70B9\u5934\u54C8\u8170\uFF09\u662F\u662F\u662F\uFF0C\u8001\u677F\u60A8\u53EF\u662F\u6709\u5927\u683C\u5C40\uFF0C\u5927\u80FD\u529B\u7684\u4EBA\u7269\u554A\uFF0C\u548C\u6211\u4EEC\u8FD9\u4E9B\u877C\u8681\u600E\u4E48\u80FD\u6BD4\u5462\u662F\u4E0D\u662F\u2026\u2026\u4F46\u662F\u2026\u2026"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "AAA\u98DF\u54C1\u6279\u53D1\u5F6A\u54E5"
+    DialogueText: "\uFF08\u7A81\u7136\u4E00\u8138\u795E\u79D8\uFF09\u4E0D\u8FC7\u8001\u677F\u554A\uFF0C\u90A3\u4E2A\u8C23\u8A00\u60A8\u542C\u8BF4\u4E86\u5417\uFF1F"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: 
+    DialogueText: "\uFF08\u5F6A\u54E5\u7A81\u7136\u53D8\u5F97\u652F\u652F\u543E\u543E\u7684\uFF0C\u6B32\u8A00\u53C8\u6B62\uFF09"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: "\uFF08\u4E0D\u8010\u70E6\uFF09\u4EC0\u4E48\u8C23\u8A00\uFF1F\u541E\u541E\u5410\u5410\u7684\u770B\u7740\u5C31\u70E6"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "AAA\u98DF\u54C1\u6279\u53D1\u5F6A\u54E5"
+    DialogueText: "\uFF08\u538B\u4F4E\u4E86\u58F0\u97F3\uFF09\u5C31\u662F\u90A3\u4E2A\u554A\uFF0C14\u5929\uFF0C14\u5929\uFF01"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: "14\u5929\uFF1F\u4EC0\u4E4814\u5929\uFF1F"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "AAA\u98DF\u54C1\u6279\u53D1\u5F6A\u54E5"
+    DialogueText: "\u54CE\u5440\uFF0C\u90FD\u4F20\u5F97\u6CB8\u6CB8\u626C\u626C\u4E86\uFF0C\u8BF4\u554A14\u5929\u4E4B\u540E\uFF0C\u6551\u4E16\u4E3B\u5C31\u4F1A\u964D\u4E34\u4E86\uFF0C\u8FD9\u4E0D\u628A\u5927\u5BB6\u4E50\u574F\u4E86\uFF0C\u90FD\u8BF4\u8FD9\u6218\u4E89\u7EC8\u4E8E\u8981\u7ED3\u675F\u4E86\u2026\u2026\u60A8\u77E5\u9053\u4EC0\u4E48\u6D88\u606F\u5417\uFF1F"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: "\u548C\u6211\u6709\u4EC0\u4E48\u5173\u7CFB\uFF1F\uFF08\u4E0D\u8010\u70E6\uFF09\u6211\u624D\u4E0D\u5173\u5FC3\u6218\u4E89\u4E0D\u6218\u4E89\u7684\uFF0C\u522B\u5F71\u54CD\u6211\u8D5A\u94B1\u5C31\u2026\u2026"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u4E00\u4E2A\u5C0F\u5B69"
+    DialogueText: "\u5988\u5988\uFF01\u90A3\u662F\u4EC0\u4E48\uFF1F\uFF08\u4F60\u7684\u8BDD\u97F3\u8FD8\u672A\u843D\u4E0B\uFF0C\u4E00\u4E2A\u5C0F\u5B69\u5FFD\u7136\u6307\u7740\u5929\u7A7A\u4E2D\u7684\u4E00\u9053\u9ED1\u5F71\u5927\u58F0\u558A\u9053\uFF09"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+          m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+          m_MethodName: InitSoundEffectInDial
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Kid
+            m_BoolArgument: 0
+          m_CallState: 2
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u4EBA\u7FA4"
+    DialogueText: "\uFF08\u5927\u5BB6\u90FD\u671D\u5929\u7A7A\u770B\u53BB\uFF0C\u90A3\u9053\u9ED1\u5F71\u5728\u98DE\u901F\u9760\u8FD1\uFF0C\u751A\u81F3\u8FD8\u4F34\u968F\u7740\u5DE8\u5927\u7684\u547C\u5578\u58F0\u2014\u2014\uFF09"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "AAA\u98DF\u54C1\u6279\u53D1\u5F6A\u54E5"
+    DialogueText: "\u7830\u2014\u2014\u2014\u2014\u2014\u2014"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+          m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+          m_MethodName: CMSHAKE
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 438166965}
+          m_TargetAssemblyTypeName: DaoRuControl, Assembly-CSharp
+          m_MethodName: FadeAfterExplode
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u65E0\u7EBF\u7535"
+    DialogueText: "\uFF08\u673A\u68B0\u5973\u58F0\uFF09\u7A81\u53D1\u4E8B\u4EF6\uFF01\u7A81\u53D1\u4E8B\u4EF6\uFF01\u7A7A\u88AD\u6765\u4E34\uFF0C\u8BF7\u5E7F\u5927\u5E02\u6C11\u5C0F\u5FC3\uFF01\uFF01\u505A\u597D\u9632\u62A4\u51C6\u5907\uFF01\uFF01"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u4EBA\u7FA4"
+    DialogueText: "\u5FEB\u8DD1\u554A\uFF01\u7A7A\u88AD\u6765\u4E86\u2014\u2014\u2014\u2014"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u4EBA\u7FA4"
+    DialogueText: "\u2026\u2026"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: "\uFF08\u591C\u8272\u56DB\u5408\uFF09\u4E00\u4E2A\u4E0D\u5E78\u7684\u6D88\u606F.......\u4F60\u7684\u623F\u5C4B\u88AB\u70B8\u6BC1\u4E86\uFF0C\u5305\u62EC\u4ED3\u5E93\u91CC\u7684\u6240\u6709\u8D27\u7269\u3001\u5BB6\u5177\u2026\u2026"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 21300000, guid: 84303e1e15d276549b60f0167c167433, type: 3}
+    isLeft: 0
+    PeopleName: "\u58EB\u5175"
+    DialogueText: "\u4F60\uFF01\u5446\u5728\u8FD9\u91CC\u505A\u4EC0\u4E48\uFF1F\u8FD9\u91CC\u5371\u9669\uFF0C\u8D76\u7D27\u8D70\uFF01"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: "\u53EF\u662F\u6211\u5BB6\u5728\u8FD9\u554A\u957F\u5B98\uFF01\u6211\u5BB6\u5C31\u5728\u8FD9\u91CC\uFF01\u6211\u7684\u94B1\uFF0C\u6211\u7684\u4E1C\u897F\uFF0C\u5168\u90E8\u90FD\u5728\u8FD9\u91CC\uFF0C\u88AB\u57CB\u4E86\uFF0C\u957F\u5B98\u4F60\u80FD\u5E2E\u5E2E\u6211\u5417\uFF0C\u6211\u7684\u4E1C\u897F\u5168\u90E8\u90FD\u2026\u2026"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 21300000, guid: 84303e1e15d276549b60f0167c167433, type: 3}
+    isLeft: 0
+    PeopleName: "\u58EB\u5175"
+    DialogueText: "\uFF08\u7740\u6025\uFF09\u4EC0\u4E48\u5BB6\u4E0D\u5BB6\u7684\uFF0C\u8FD9\u91CC\u88AB\u70B8\u6BC1\u4E86\uFF01\u4F60\u6CA1\u6B7B\u90FD\u662F\u4F60\u547D\u5927\uFF01"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 21300000, guid: 84303e1e15d276549b60f0167c167433, type: 3}
+    isLeft: 0
+    PeopleName: "\u58EB\u5175"
+    DialogueText: "\u60F3\u6D3B\u547D\u5C31\u8D76\u7D27\u8D70\uFF01\u8FD9\u91CC\u5DF2\u7ECF\u4E0D\u5B89\u5168\u4E86\uFF0C\u540E\u9762\u7684\u90A3\u4E9B\u5E78\u5B58\u7684\uFF0C\u90FD\u8DDF\u4E0A\uFF0C\u5FEB\u64A4\uFF01"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: "\u4E0D\u8981\u554A\u2026\u2026\u6211\u7684\u5BB6\uFF0C\u6211\u7684\u4E1C\u897F\uFF01\uFF08\u5C3D\u7BA1\u5F88\u4E0D\u60F3\u8D70\uFF0C\u4F46\u662F\u88AB\u58EB\u5175\u5F3A\u884C\u5E26\u8D70\u4E86\uFF09"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: "\u88AB\u9001\u5230\u53E6\u4E00\u7247\u5B89\u5168\u533A\u540E\uFF0C\u58EB\u5175\u4EEC\u5C31\u79BB\u5F00\u4E86\u3002"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: "\uFF08\u591C\u8272\u964D\u4E34\uFF0C\u6C14\u6E29\u5F00\u59CB\u6025\u901F\u4E0B\u964D\uFF09\u7A7A\u96BE\u964D\u4E34\u7684\u65F6\u5019\uFF0C\u53EA\u5306\u5306\u62FF\u4E86\u4E00\u4E2A\u80CC\u5305\u2026\u2026\u4E3A\u4E86\u5EA6\u8FC7\u8FD9\u4E2A\u5BD2\u51B7\u7684\u591C\u665A\uFF0C\u53EA\u80FD\u5C3D\u5FEB\u627E\u4E00\u4E2A\u4E34\u65F6\u7684\u4F4F\u6240\u4E86"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: "\u8BF7\u4F60\u9009\u62E9\u524D\u8FDB\u7684\u65B9\u5411\uFF1A"
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls: []
+    isFight: 0
+  - PeopleImage: {fileID: 0}
+    isLeft: 0
+    PeopleName: "\u6211"
+    DialogueText: 
+    isNeedPause: 0
+    isOver: 0
+    AfterSentenceFinish:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+          m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+          m_MethodName: ShowSelectPanel
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 750825485124497955, guid: c6fab693ac2f12f4785d2a44f33f6ff4, type: 3}
+          m_TargetAssemblyTypeName: CallHomeFinishDial, Assembly-CSharp
+          m_MethodName: InstantiateLuckyPadding
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    isFight: 0
+  dialogueListElement:
+  - CustomerID: 0
+    isThisDialDone: 0
+    DialListElem:
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u4F60\u770B\u89C1\u4E86\u4E00\u7247\u8352\u5E9F\u7684\u522B\u5885\u4F4F\u5B85\u3002\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u770B\u8D77\u6765\u6709\u4E9B\u91CC\u9762\u8FD8\u4F4F\u4E86\u4EBA\u3002"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u4E3A\u4E86\u9632\u6B62\u548C\u539F\u4F4F\u6C11\u8D77\u51B2\u7A81\uFF0C\u4F60\u5728\u522B\u5885\u56ED\u533A\u5185\u627E\u5230\u4E86\u4E00\u95F4\u5730\u4E0B\u50A8\u7269\u5BA4\u3002\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u83B7\u5F97\u4F4F\u6240\uFF1A\u5730\u4E0B\u50A8\u7269\u5BA4\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u4F60\u5C06\u5730\u4E0B\u50A8\u7269\u5BA4\u539F\u6709\u7684\u4E1C\u897F\u6536\u62FE\u4E86\u4E00\u756A\uFF0C\u610F\u5916\u627E\u5230\u4E86XXX\uFF0CXXX\u3002\uFF08XXX\uFF0CXXX\u5DF2\u6536\u5165\u80CC\u5305\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\uFF08\u6253\u626B\u597D\u4E86\u4E34\u65F6\u7684\u5E8A\u94FA\uFF0C\u7EC8\u4E8E\u8EBA\u4E86\u4E0A\u53BB\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u8001\u5929\u7237\u554A\uFF0C\u771F\u662F\u5012\u9709\uFF01"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u5728\u6218\u4E89\u4F3C\u4E4E\u9A6C\u4E0A\u5C31\u8981\u7ED3\u675F\u7684\u65F6\u523B\uFF0C\u6211\u7ADF\u7136\u56E0\u4E3A\u4E00\u573A\u8BE5\u6B7B\u7684\u7A7A\u88AD\u5931\u53BB\u4E86\u4E00\u5207\uFF01"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u6211\u80FD\u6D3B\u523014\u5929\u540E\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u80FD\u77E5\u905314\u5929\u540E\u7684\u6551\u4E16\u4E3B\u662F\u8C01\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u2026\u2026\u6218\u4E89\u771F\u7684\u4F1A\u7ED3\u675F\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u2026\u2026\uFF08\u5728\u5FE7\u601D\u4E2D\u6E10\u6E10\u7761\u7740\u4E86\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: 
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 438166965}
+            m_TargetAssemblyTypeName: DaoRuControl, Assembly-CSharp
+            m_MethodName: ResetFadeCanvasSort
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      isFight: 0
+  - CustomerID: 0
+    isThisDialDone: 0
+    DialListElem:
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u4F60\u770B\u89C1\u4E86\u4E00\u7247\u8352\u5E9F\u7684\u519C\u6751\u3002\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u623F\u5B50\u5DF2\u7ECF\u5168\u90E8\u88AB\u5937\u4E3A\u5E73\u5730\u4E86\uFF0C\u4F46\u662F\u627E\u5230\u4E86\u4E00\u4E2A\u5C0F\u9E21\u68DA"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u5C0F\u9E21\u68DA\u540E\u9762\u6709\u4E00\u4E2A\u5730\u7A96\uFF0C\u867D\u7136\u6709\u70B9\u810F\uFF0C\u4F46\u80DC\u5728\u5B89\u5168\u3002"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u83B7\u5F97\u4F4F\u6240\uFF1A\u9E21\u68DA\u5730\u7A96\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u4F60\u5C06\u5730\u7A96\u539F\u6709\u7684\u4E1C\u897F\u6536\u62FE\u4E86\u4E00\u756A\uFF0C\u610F\u5916\u627E\u5230\u4E86XXX\uFF0CXXX\u3002\uFF08XXX\uFF0CXXX\u5DF2\u6536\u5165\u80CC\u5305\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\uFF08\u6253\u626B\u597D\u4E86\u4E34\u65F6\u7684\u5E8A\u94FA\uFF0C\u7EC8\u4E8E\u8EBA\u4E86\u4E0A\u53BB\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u8001\u5929\u7237\u554A\uFF0C\u771F\u662F\u5012\u9709\uFF01"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u5728\u6218\u4E89\u4F3C\u4E4E\u9A6C\u4E0A\u5C31\u8981\u7ED3\u675F\u7684\u65F6\u523B\uFF0C\u6211\u7ADF\u7136\u56E0\u4E3A\u4E00\u573A\u8BE5\u6B7B\u7684\u7A7A\u88AD\u5931\u53BB\u4E86\u4E00\u5207\uFF01"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u6211\u80FD\u6D3B\u523014\u5929\u540E\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u80FD\u77E5\u905314\u5929\u540E\u7684\u6551\u4E16\u4E3B\u662F\u8C01\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u2026\u2026\u6218\u4E89\u771F\u7684\u4F1A\u7ED3\u675F\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u2026\u2026\uFF08\u5728\u5FE7\u601D\u4E2D\u6E10\u6E10\u7761\u7740\u4E86\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: 
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 438166965}
+            m_TargetAssemblyTypeName: DaoRuControl, Assembly-CSharp
+            m_MethodName: ResetFadeCanvasSort
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      isFight: 0
+  - CustomerID: 0
+    isThisDialDone: 0
+    DialListElem:
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\uFF08\u4F60\u770B\u89C1\u4E86\u4E00\u7247\u6811\u6797\uFF0C\u627E\u5230\u4E86\u4E00\u95F4\u5DF2\u7ECF\u7834\u7834\u70C2\u70C2\u7684\u7269\u8D44\u3002\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u5E94\u8BE5\u662F\u4ECE\u524D\u7684\u62A4\u6797\u5458\u4F11\u606F\u7684\u5730\u65B9\uFF0C\u770B\u8D77\u6765\u4E0D\u592A\u5B89\u5168\u3002"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u4F60\u79BB\u5F00\u4E86\uFF0C\u5728\u623F\u5B50\u9644\u8FD1\u627E\u5230\u4E86\u4E00\u4E2A\u5F03\u7528\u7684\u5730\u4E0B\u50A8\u7269\u5BA4\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u83B7\u5F97\u4F4F\u6240\uFF1A\u6728\u5C4B\u5730\u4E0B\u5BA4\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\u4F60\u5C06\u5730\u4E0B\u5BA4\u539F\u6709\u7684\u4E1C\u897F\u6536\u62FE\u4E86\u4E00\u756A\uFF0C\u610F\u5916\u627E\u5230\u4E86XXX\uFF0CXXX\u3002\uFF08XXX\uFF0CXXX\u5DF2\u6536\u5165\u80CC\u5305\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\uFF08\u6253\u626B\u597D\u4E86\u4E34\u65F6\u7684\u5E8A\u94FA\uFF0C\u7EC8\u4E8E\u8EBA\u4E86\u4E0A\u53BB\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u8001\u5929\u7237\u554A\uFF0C\u771F\u662F\u5012\u9709\uFF01"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u5728\u6218\u4E89\u4F3C\u4E4E\u9A6C\u4E0A\u5C31\u8981\u7ED3\u675F\u7684\u65F6\u523B\uFF0C\u6211\u7ADF\u7136\u56E0\u4E3A\u4E00\u573A\u8BE5\u6B7B\u7684\u7A7A\u88AD\u5931\u53BB\u4E86\u4E00\u5207\uFF01"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u6211\u80FD\u6D3B\u523014\u5929\u540E\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u80FD\u77E5\u905314\u5929\u540E\u7684\u6551\u4E16\u4E3B\u662F\u8C01\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u2026\u2026\u6218\u4E89\u771F\u7684\u4F1A\u7ED3\u675F\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u2026\u2026\uFF08\u5728\u5FE7\u601D\u4E2D\u6E10\u6E10\u7761\u7740\u4E86\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: 
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 438166965}
+            m_TargetAssemblyTypeName: DaoRuControl, Assembly-CSharp
+            m_MethodName: ResetFadeCanvasSort
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      isFight: 0
+  - CustomerID: 0
+    isThisDialDone: 0
+    DialListElem:
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u4F60\u51B3\u5B9A\u7559\u5728\u539F\u5730\uFF0C\u770B\u770B\u4F1A\u4E0D\u4F1A\u6709\u4EBA\u63D0\u4F9B\u4F4F\u6240\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u2026\u2026\u771F\u7684\u4F1A\u6709\u4EBA\u6765\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u8D8A\u6765\u8D8A\u51B7\u4E86\uFF0C\u4F60\u5F00\u59CB\u6000\u7591\u7559\u5728\u539F\u5730\u662F\u4E0D\u662F\u4E00\u4E2A\u5408\u9002\u7684\u9009\u62E9\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u58EB\u5175"
+      DialogueText: "\u8E72\u5728\u8FD9\u91CC\u505A\u4EC0\u4E48\uFF01\u4E0D\u6015\u51BB\u6B7B\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u58EB\u5175"
+      DialogueText: "\u8D76\u7D27\u548C\u6211\u8D70\uFF0C\u5012\u5728\u8FD9\u91CC\u53C8\u662F\u4E00\u4E2A\u9EBB\u70E6\u4E8B\u3002"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u4F60\u8DDF\u7740\u58EB\u5175\u8D70\u4E86\uFF0C\u5230\u4E86\u4E00\u4E2A\u5E7D\u6697\u7684\u5730\u4E0B\u5BA4\u3002\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u4F60\u53C8\u7D2F\u53C8\u51B7\uFF0C\u627E\u5230\u4E00\u5904\u5BB9\u8EAB\u5C31\u8EBA\u4E0B\u4E86\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: "\uFF08\u83B7\u5F97\u4F4F\u6240\uFF1A\u9634\u6697\u5730\u4E0B\u5BA4\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\uFF08\u8EBA\u5728\u5E8A\u4E0A\u54C0\u53F9\uFF09\u8001\u5929\u7237\u554A\uFF0C\u771F\u662F\u5012\u9709\uFF01"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u5728\u6218\u4E89\u4F3C\u4E4E\u9A6C\u4E0A\u5C31\u8981\u7ED3\u675F\u7684\u65F6\u523B\uFF0C\u6211\u7ADF\u7136\u56E0\u4E3A\u4E00\u573A\u8BE5\u6B7B\u7684\u7A7A\u88AD\u5931\u53BB\u4E86\u4E00\u5207\uFF01"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u6211\u80FD\u6D3B\u523014\u5929\u540E\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u80FD\u77E5\u905314\u5929\u540E\u7684\u6551\u4E16\u4E3B\u662F\u8C01\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u2026\u2026\u6218\u4E89\u771F\u7684\u4F1A\u7ED3\u675F\u5417\uFF1F"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: "\u6211"
+      DialogueText: "\u2026\u2026\uFF08\u5728\u5FE7\u601D\u4E2D\u6E10\u6E10\u7761\u7740\u4E86\uFF09"
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls: []
+      isFight: 0
+    - PeopleImage: {fileID: 0}
+      isLeft: 0
+      PeopleName: 
+      DialogueText: 
+      isNeedPause: 0
+      isOver: 0
+      AfterSentenceFinish:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 438166965}
+            m_TargetAssemblyTypeName: DaoRuControl, Assembly-CSharp
+            m_MethodName: ResetFadeCanvasSort
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      isFight: 0
+--- !u!1 &484812073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 484812074}
+  - component: {fileID: 484812075}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &484812074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484812073}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9172, y: 0.1576, z: 0}
+  m_LocalScale: {x: 1.6401001, y: 1.8266577, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 81560103}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &484812075
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484812073}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: c8f1666ef30d7774f842b098d3ba41c8, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.6, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1610090903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1610090904}
+  - component: {fileID: 1610090906}
+  - component: {fileID: 1610090905}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1610090904
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610090903}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 362591281}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -798}
+  m_SizeDelta: {x: 1480.771, y: 2007.239}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1610090905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610090903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 926385ea88d8fed4b8867f27b92fda7b, type: 3}
+    m_FontSize: 43
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 43
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.94
+  m_Text: "\u6218\u4E89\uFF0C\u6C38\u65E0\u6B62\u5883\u7684\u6218\u4E89\n\r\u4EFF\u4F5B\u8FD9\u4E2A\u4E16\u754C\u5C31\u662F\u4E3A\u4E86\u6218\u4E89\u800C\u5B58\u5728\u7684\n\r\u51FA\u751F\u5728\u8FD9\u7247\u571F\u5730\u7684\u6240\u6709\u4EBA\u4ECE\u5471\u5471\u5760\u5730\u90A3\u4E00\u523B\u8D77\n\u5C31\u4E0D\u5F97\u4E0D\u88AB\u5377\u5165\u8FD9\u573A\u6218\u4E89\u4E2D\u6765\r\u6CA1\u6709\u4EBA\u8BB0\u5F97\u6E90\u5934\n\u4E5F\u6C38\u8FDC\u770B\u4E0D\u89C1\u5C3D\u5934\n\n\r\r\u201C\u6551\u4E16\u4E3B\u7EC8\u5C06\u964D\u4E34\uFF01\u201D\n\r\u90A3\u5929\u7684\u62A5\u7EB8\u4F20\u904D\u5927\u8857\u5C0F\u5DF7\n\u9C9C\u660E\u523A\u76EE\u7684\u5934\u7248\u5934\u6761\n\u7FFB\u98DE\u5728\u8FD9\u5EA7\u57CE\u5E02\u7684\u6BCF\u4E00\u4E2A\u89D2\u843D\n\u6240\u6709\u4EBA\u90FD\u5F97\u77E5\u4E86\u4E00\u4E2A\u6D88\u606F\uFF1A\n\n\u4EC1\u6148\u7684\u6551\u4E16\u4E3B\n\u5C06\u5728\u5341\u56DB\u5929\u540E\u964D\u4E34\uFF0C\u6218\u4E89\u7EC8\u5C06\u8FCE\u6765\u8F6C\u673A\r"
+--- !u!222 &1610090906
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610090903}
+  m_CullTransparentMesh: 1
+--- !u!1 &1905908160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1905908161}
+  - component: {fileID: 1905908163}
+  - component: {fileID: 1905908162}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1905908161
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905908160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 438166964}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1905908162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905908160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 95c270f204fa0c14284623a80b240bb9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1905908163
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905908160}
+  m_CullTransparentMesh: 1
